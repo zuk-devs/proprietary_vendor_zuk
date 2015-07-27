@@ -190,6 +190,9 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/ham/proprietary/vendor/lib/libactuator_rohm_bu63163.so:system/vendor/lib/libactuator_rohm_bu63163.so \
     vendor/zuk/ham/proprietary/vendor/lib/libactuator_rohm_bu63163_camcorder.so:system/vendor/lib/libactuator_rohm_bu63163_camcorder.so \
     vendor/zuk/ham/proprietary/vendor/lib/libactuator_rohm_bu63163_camera.so:system/vendor/lib/libactuator_rohm_bu63163_camera.so \
+    vendor/zuk/ham/proprietary/vendor/lib/libactuator_rohm_bu63163_lg.so:system/vendor/lib/libactuator_rohm_bu63163_lg.so \
+    vendor/zuk/ham/proprietary/vendor/lib/libactuator_rohm_bu63163_lg_camcorder.so:system/vendor/lib/libactuator_rohm_bu63163_lg_camcorder.so \
+    vendor/zuk/ham/proprietary/vendor/lib/libactuator_rohm_bu63163_lg_camera.so:system/vendor/lib/libactuator_rohm_bu63163_lg_camera.so \
     vendor/zuk/ham/proprietary/vendor/lib/libchromatix_imx214_common.so:system/vendor/lib/libchromatix_imx214_common.so \
     vendor/zuk/ham/proprietary/vendor/lib/libchromatix_imx214_default_video.so:system/vendor/lib/libchromatix_imx214_default_video.so \
     vendor/zuk/ham/proprietary/vendor/lib/libchromatix_imx214_hfr_120.so:system/vendor/lib/libchromatix_imx214_hfr_120.so \
