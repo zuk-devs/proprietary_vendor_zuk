@@ -138,7 +138,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/ham/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/zuk/ham/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
     vendor/zuk/ham/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
-    vendor/zuk/ham/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/zuk/ham/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/zuk/ham/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
     vendor/zuk/ham/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
@@ -182,6 +181,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/ham/proprietary/vendor/lib/liblisten.so:system/vendor/lib/liblisten.so \
     vendor/zuk/ham/proprietary/vendor/lib/liblistensoundmodel.so:system/vendor/lib/liblistensoundmodel.so \
     vendor/zuk/ham/proprietary/app/QuickBoot/QuickBoot.apk:system/app/QuickBoot/QuickBoot.apk \
+    vendor/zuk/ham/proprietary/lib/libwpa_qmi_eap_proxy.so:system/lib/libwpa_qmi_eap_proxy.so \
     vendor/zuk/ham/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so \
     vendor/zuk/ham/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/zuk/ham/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
