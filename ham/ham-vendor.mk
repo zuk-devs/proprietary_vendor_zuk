@@ -17,4 +17,11 @@
 # Pick up overlay for features that depend on non-open-source files
 DEVICE_PACKAGE_OVERLAYS := vendor/zuk/ham/overlay
 
+PRODUCT_PACKAGES += \
+    com.qualcomm.location \
+    QuickBoot \
+    qcrilmsgtunnel \
+    shutdownlistener \
+    TimeService
+
 $(call inherit-product, vendor/zuk/ham/ham-vendor-blobs.mk)

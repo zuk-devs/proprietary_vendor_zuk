@@ -61,7 +61,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/ham/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/zuk/ham/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/zuk/ham/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/zuk/ham/proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk:system/priv-app/com.qualcomm.location/com.qualcomm.location.apk \
     vendor/zuk/ham/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/zuk/ham/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/zuk/ham/proprietary/bin/lowi-server:system/bin/lowi-server \
@@ -147,8 +146,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/ham/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/zuk/ham/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/zuk/ham/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
-    vendor/zuk/ham/proprietary/app/qcrilmsgtunnel/qcrilmsgtunnel.apk:system/app/qcrilmsgtunnel/qcrilmsgtunnel.apk \
-    vendor/zuk/ham/proprietary/app/shutdownlistener/shutdownlistener.apk:system/app/shutdownlistener/shutdownlistener.apk \
     vendor/zuk/ham/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/zuk/ham/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/zuk/ham/proprietary/bin/radish:system/bin/radish \
@@ -175,12 +172,10 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/ham/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/zuk/ham/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/zuk/ham/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
-    vendor/zuk/ham/proprietary/app/TimeService/TimeService.apk:system/app/TimeService/TimeService.apk \
     vendor/zuk/ham/proprietary/vendor/lib/liblistenhardware.so:system/vendor/lib/liblistenhardware.so \
     vendor/zuk/ham/proprietary/vendor/lib/liblistenjni.so:system/vendor/lib/liblistenjni.so \
     vendor/zuk/ham/proprietary/vendor/lib/liblisten.so:system/vendor/lib/liblisten.so \
     vendor/zuk/ham/proprietary/vendor/lib/liblistensoundmodel.so:system/vendor/lib/liblistensoundmodel.so \
-    vendor/zuk/ham/proprietary/app/QuickBoot/QuickBoot.apk:system/app/QuickBoot/QuickBoot.apk \
     vendor/zuk/ham/proprietary/lib/libwpa_qmi_eap_proxy.so:system/lib/libwpa_qmi_eap_proxy.so \
     vendor/zuk/ham/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so \
     vendor/zuk/ham/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
