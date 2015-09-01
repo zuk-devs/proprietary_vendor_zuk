@@ -146,6 +146,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/ham/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/zuk/ham/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/zuk/ham/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
+    vendor/zuk/ham/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
     vendor/zuk/ham/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/zuk/ham/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/zuk/ham/proprietary/bin/radish:system/bin/radish \
