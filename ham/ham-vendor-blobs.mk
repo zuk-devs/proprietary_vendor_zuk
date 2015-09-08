@@ -265,6 +265,7 @@ endif
 
 PRODUCT_COPY_FILES += \
     vendor/zuk/ham/proprietary/vendor/bin/fingerprint_client:system/vendor/bin/fingerprint_client \
+    vendor/zuk/ham/proprietary/vendor/etc/qcril.db:system/vendor/etc/qcril.db \
     vendor/zuk/ham/proprietary/etc/tfa98xx/TFA9890_N1B12_N1C3_v2.config:system/etc/tfa98xx/TFA9890_N1B12_N1C3_v2.config \
     vendor/zuk/ham/proprietary/etc/tfa98xx/TFA9890_N1C3_2_1_1.patch:system/etc/tfa98xx/TFA9890_N1C3_2_1_1.patch \
     vendor/zuk/ham/proprietary/etc/tfa98xx/coldboot.patch:system/etc/tfa98xx/coldboot.patch \
