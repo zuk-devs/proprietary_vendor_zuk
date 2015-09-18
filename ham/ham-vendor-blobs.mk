@@ -178,6 +178,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/ham/proprietary/vendor/lib/liblistenjni.so:system/vendor/lib/liblistenjni.so \
     vendor/zuk/ham/proprietary/vendor/lib/liblisten.so:system/vendor/lib/liblisten.so \
     vendor/zuk/ham/proprietary/vendor/lib/liblistensoundmodel.so:system/vendor/lib/liblistensoundmodel.so \
+    vendor/zuk/ham/proprietary/framework/com.qrd.wappush.jar:system/framework/com.qrd.wappush.jar \
     vendor/zuk/ham/proprietary/lib/libwpa_qmi_eap_proxy.so:system/lib/libwpa_qmi_eap_proxy.so \
     vendor/zuk/ham/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so \
     vendor/zuk/ham/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
@@ -264,6 +265,7 @@ PRODUCT_COPY_FILES += \
 endif
 
 PRODUCT_COPY_FILES += \
+    vendor/zuk/ham/proprietary/etc/permissions/com.qrd.wappush.xml:system/etc/permissions/com.qrd.wappush.xml \
     vendor/zuk/ham/proprietary/vendor/bin/fingerprint_client:system/vendor/bin/fingerprint_client \
     vendor/zuk/ham/proprietary/vendor/etc/qcril.db:system/vendor/etc/qcril.db \
     vendor/zuk/ham/proprietary/etc/tfa98xx/TFA9890_N1B12_N1C3_v2.config:system/etc/tfa98xx/TFA9890_N1B12_N1C3_v2.config \
