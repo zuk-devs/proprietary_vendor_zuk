@@ -19,7 +19,6 @@ DEVICE_PACKAGE_OVERLAYS := vendor/zuk/ham/overlay
 
 PRODUCT_PACKAGES += \
     com.qualcomm.location \
-    QuickBoot \
     qcrilmsgtunnel \
     shutdownlistener \
     TimeService
