@@ -154,6 +154,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/ham/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/zuk/ham/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/zuk/ham/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
+    vendor/zuk/ham/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/zuk/ham/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/zuk/ham/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/zuk/ham/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
