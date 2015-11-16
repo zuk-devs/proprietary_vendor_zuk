@@ -23,4 +23,8 @@ PRODUCT_PACKAGES += \
     shutdownlistener \
     TimeService
 
+PRODUCT_PACKAGES += \
+    libloc_api_v02 \
+    libloc_ds_api
+
 $(call inherit-product, vendor/zuk/ham/ham-vendor-blobs.mk)

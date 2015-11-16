@@ -64,7 +64,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/ham/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/zuk/ham/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/zuk/ham/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
-    vendor/zuk/ham/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/zuk/ham/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/zuk/ham/proprietary/vendor/lib/hw/activity_recognition.msm8974.so:system/vendor/lib/hw/activity_recognition.msm8974.so \
     vendor/zuk/ham/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
@@ -147,6 +146,8 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/ham/proprietary/bin/radish:system/bin/radish \
     vendor/zuk/ham/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/zuk/ham/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/zuk/ham/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
+    vendor/zuk/ham/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/zuk/ham/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/zuk/ham/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/zuk/ham/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
