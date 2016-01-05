@@ -165,6 +165,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/ham/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/zuk/ham/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/zuk/ham/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
+    vendor/zuk/ham/proprietary/lib/libwpa_qmi_eap_proxy.so:system/lib/libwpa_qmi_eap_proxy.so \
     vendor/zuk/ham/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so \
     vendor/zuk/ham/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/zuk/ham/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
