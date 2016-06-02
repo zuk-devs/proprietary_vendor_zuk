@@ -35,13 +35,30 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/ham/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/zuk/ham/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/zuk/ham/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
-    vendor/zuk/ham/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
-    vendor/zuk/ham/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
-    vendor/zuk/ham/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
-    vendor/zuk/ham/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
-    vendor/zuk/ham/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
-    vendor/zuk/ham/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
-    vendor/zuk/ham/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+    vendor/zuk/ham/proprietary/bin/cnd:system/bin/cnd \
+    vendor/zuk/ham/proprietary/bin/dpmd:system/bin/dpmd \
+    vendor/zuk/ham/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
+    vendor/zuk/ham/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
+    vendor/zuk/ham/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
+    vendor/zuk/ham/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
+    vendor/zuk/ham/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
+    vendor/zuk/ham/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
+    vendor/zuk/ham/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
+    vendor/zuk/ham/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
+    vendor/zuk/ham/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
+    vendor/zuk/ham/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
+    vendor/zuk/ham/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
+    vendor/zuk/ham/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
+    vendor/zuk/ham/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
+    vendor/zuk/ham/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
+    vendor/zuk/ham/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
+    vendor/zuk/ham/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
+    vendor/zuk/ham/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
+    vendor/zuk/ham/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
+    vendor/zuk/ham/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
+    vendor/zuk/ham/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
+    vendor/zuk/ham/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
+    vendor/zuk/ham/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/zuk/ham/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/zuk/ham/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
     vendor/zuk/ham/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
@@ -61,12 +78,15 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/ham/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/zuk/ham/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/zuk/ham/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
+    vendor/zuk/ham/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/zuk/ham/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+    vendor/zuk/ham/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/zuk/ham/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/zuk/ham/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/zuk/ham/proprietary/vendor/lib/hw/activity_recognition.msm8974.so:system/vendor/lib/hw/activity_recognition.msm8974.so \
+    vendor/zuk/ham/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/zuk/ham/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/zuk/ham/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
+    vendor/zuk/ham/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
     vendor/zuk/ham/proprietary/vendor/lib/libasn1crt.so:system/vendor/lib/libasn1crt.so \
     vendor/zuk/ham/proprietary/vendor/lib/libasn1crtx.so:system/vendor/lib/libasn1crtx.so \
     vendor/zuk/ham/proprietary/vendor/lib/libasn1cper.so:system/vendor/lib/libasn1cper.so \
@@ -78,6 +98,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/ham/proprietary/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
     vendor/zuk/ham/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
     vendor/zuk/ham/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
+    vendor/zuk/ham/proprietary/vendor/lib/libslimclient.so:system/vendor/lib/libslimclient.so \
     vendor/zuk/ham/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/zuk/ham/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/zuk/ham/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
@@ -156,6 +177,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/ham/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/zuk/ham/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/zuk/ham/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
+    vendor/zuk/ham/proprietary/vendor/lib/hw/activity_recognition.msm8974.so:system/vendor/lib/hw/activity_recognition.msm8974.so \
     vendor/zuk/ham/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
     vendor/zuk/ham/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/zuk/ham/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
@@ -252,6 +274,13 @@ PRODUCT_COPY_FILES += \
 endif
 
 PRODUCT_COPY_FILES += \
+    vendor/zuk/ham/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
+    vendor/zuk/ham/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
+    vendor/zuk/ham/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
+    vendor/zuk/ham/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
+    vendor/zuk/ham/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
+    vendor/zuk/ham/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
+    vendor/zuk/ham/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/zuk/ham/proprietary/vendor/etc/qcril.db:system/vendor/etc/qcril.db \
     vendor/zuk/ham/proprietary/etc/tfa98xx/TFA9890_N1B12_N1C3_v2.config:system/etc/tfa98xx/TFA9890_N1B12_N1C3_v2.config \
     vendor/zuk/ham/proprietary/etc/tfa98xx/TFA9890_N1C3_2_1_1.patch:system/etc/tfa98xx/TFA9890_N1C3_2_1_1.patch \

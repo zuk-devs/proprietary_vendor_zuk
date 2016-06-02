@@ -18,6 +18,8 @@
 DEVICE_PACKAGE_OVERLAYS := vendor/zuk/ham/overlay
 
 PRODUCT_PACKAGES += \
+    CNEService \
+    dpmserviceapp \
     com.qualcomm.location \
     qcrilmsgtunnel \
     shutdownlistener \
