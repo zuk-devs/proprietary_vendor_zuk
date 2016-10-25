@@ -1,0 +1,2387 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<appops-policy version="1">
+  <user-app>
+    <perms name="call" permission="2"/>
+    <perms name="send_sms" permission="2"/>
+    <perms name="send_mms" permission="2"/>
+    <perms name="access_contacts" permission="2"/>
+    <perms name="access_call_log" permission="2"/>
+    <perms name="access_sms" permission="2"/>
+    <perms name="access_mms" permission="2"/>
+    <perms name="location" permission="2"/>
+    <perms name="access_calendar" permission="2"/>
+    <perms name="camera" permission="2"/>
+    <perms name="record_audio" permission="2"/>
+    <perms name="data_connect" permission="1"/>
+    <perms name="wifi" permission="1"/>
+    <perms name="bluetooth_change" permission="1"/>
+    <perms name="write_settings" permission="1"/>
+    <perms name="device_info" permission="1"/>
+    <perms name="create_shortcut" permission="4"/>
+    <perms name="floating_window" permission="4"/>
+    <perms name="notification" permission="2"/>
+    <perms name="get_phone_number" permission="2"/>
+    <perms name="get_accounts" permission="2"/>
+    <perms name="body_sensors" permission="2"/>
+    <perms name="read_external_storage" permission="1"/>
+    <perms name="write_external_storage" permission="1"/>
+  </user-app>
+  <system-app permission="1"/>
+  <application>
+    <pkg name="com.tencent.mm" type="user-app">
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_call_log" permission="2"/>
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+      <perms name="get_phone_number" permission="1"/>
+      <perms name="get_accounts" permission="1"/>
+      <perms name="body_sensors" permission="1"/>
+    </pkg>
+    <pkg name="com.tencent.mobileqq" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_call_log" permission="2"/>
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="access_calendar" permission="2"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+      <perms name="get_phone_number" permission="1"/>
+      <perms name="get_accounts" permission="1"/>
+    </pkg>
+    <pkg name="com.baidu.searchbox" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_contacts" permission="2"/>
+      <perms name="access_call_log" permission="2"/>
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.taobao.taobao" type="user-app">
+      <perms name="access_contacts" permission="1"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.tencent.mtt" type="user-app">
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.sohu.inputmethod.sogou" type="user-app">
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_sms" permission="1"/>
+      <perms name="access_mms" permission="1"/>
+      <perms name="location" permission="2"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.tencent.qqmusic" type="user-app">
+      <perms name="access_call_log" permission="2"/>
+      <perms name="access_sms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.qzone" type="user-app">
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.baidu.BaiduMap" type="user-app">
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_contacts" permission="2"/>
+      <perms name="access_call_log" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="2"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.UCMobile" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.baidu.appsearch" type="user-app">
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_contacts" permission="2"/>
+      <perms name="access_call_log" permission="2"/>
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="access_calendar" permission="2"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.tencent.news" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="record_audio" permission="2"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.sina.weibo" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_contacts" permission="2"/>
+      <perms name="access_call_log" permission="2"/>
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+      <perms name="get_phone_number" permission="1"/>
+      <perms name="get_accounts" permission="1"/>
+    </pkg>
+    <pkg name="com.sohu.newsclient" type="user-app">
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="2"/>
+      <perms name="record_audio" permission="2"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.eg.android.AlipayGphone" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="2"/>
+      <perms name="notification" permission="1"/>
+      <perms name="get_phone_number" permission="1"/>
+      <perms name="get_accounts" permission="1"/>
+    </pkg>
+    <pkg name="com.qihoo.appstore" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_contacts" permission="2"/>
+      <perms name="access_call_log" permission="2"/>
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.ss.android.article.news" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="notification" permission="1"/>
+      <perms name="get_accounts" permission="1"/>
+    </pkg>
+    <pkg name="com.storm.smart" type="user-app">
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+    </pkg>
+    <pkg name="com.baidu.browser.apps" type="user-app">
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.tencent.android.qqdownloader" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_contacts" permission="2"/>
+      <perms name="access_call_log" permission="2"/>
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="access_calendar" permission="2"/>
+      <perms name="camera" permission="2"/>
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.youku.phone" type="user-app">
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="get_phone_number" permission="2"/>
+    </pkg>
+    <pkg name="com.snda.wifilocating" type="user-app">
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+    </pkg>
+    <pkg name="com.moji.mjweather" type="user-app">
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.immomo.momo" type="user-app">
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_sms" permission="1"/>
+      <perms name="access_mms" permission="1"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.dragon.android.pandaspace" type="user-app">
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_call_log" permission="1"/>
+      <perms name="access_sms" permission="1"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="2"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="2"/>
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.mt.mtxx.mtxx" type="user-app">
+      <perms name="location" permission="2"/>
+      <perms name="camera" permission="1"/>
+    </pkg>
+    <pkg name="cn.kuwo.player" type="user-app">
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.kugou.android" type="user-app">
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="sina.mobile.tianqitong" type="user-app">
+      <perms name="location" permission="1"/>
+      <perms name="floating_window" permission="4"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.wandoujia.phoenix2" type="user-app">
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_sms" permission="1"/>
+      <perms name="access_mms" permission="1"/>
+      <perms name="location" permission="2"/>
+      <perms name="camera" permission="1"/>
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.tencent.qqlive" type="user-app">
+      <perms name="location" permission="1"/>
+    </pkg>
+    <pkg name="com.chaozh.iReaderFree" type="user-app">
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="2"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.qiyi.video" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_contacts" permission="2"/>
+      <perms name="access_call_log" permission="2"/>
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+    </pkg>
+    <pkg name="com.meitu.meiyancamera" type="user-app">
+      <perms name="location" permission="2"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+    </pkg>
+    <pkg name="com.autonavi.minimap" type="user-app">
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_contacts" permission="2"/>
+      <perms name="access_call_log" permission="2"/>
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.sohu.sohuvideo" type="user-app">
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+    </pkg>
+    <pkg name="com.netease.newsreader.activity" type="user-app">
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="2"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.dewmobile.kuaiya" type="user-app">
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_call_log" permission="1"/>
+      <perms name="access_sms" permission="1"/>
+      <perms name="access_mms" permission="1"/>
+      <perms name="location" permission="1"/>
+    </pkg>
+    <pkg name="com.sds.android.ttpod" type="user-app">
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.tencent.powermanager" type="user-app">
+      <perms name="location" permission="2"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.shoujiduoduo.ringtone" type="user-app">
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_call_log" permission="2"/>
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="2"/>
+      <perms name="camera" permission="2"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.tencent.androidqqmail" type="user-app">
+      <perms name="access_contacts" permission="1"/>
+      <perms name="location" permission="2"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.qihoo.browser" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.android.chrome" type="user-app">
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.sankuai.meituan" type="user-app">
+      <perms name="call" permission="1"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="2"/>
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.baidu.input" type="user-app">
+      <perms name="access_contacts" permission="1"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.ifeng.news2" type="user-app">
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.changba" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.baidu.video" type="user-app">
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_contacts" permission="2"/>
+      <perms name="access_call_log" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+    </pkg>
+    <pkg name="com.ijinshan.kbatterydoctor" type="user-app">
+      <perms name="location" permission="2"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="tv.pps.mobile" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_contacts" permission="2"/>
+      <perms name="access_call_log" permission="2"/>
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+    </pkg>
+    <pkg name="com.shuqi.controller" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="2"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="cn.etouch.ecalendar" type="user-app">
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_call_log" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="access_calendar" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+    </pkg>
+    <pkg name="com.hiapk.marketpho" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="access_contacts" permission="2"/>
+      <perms name="location" permission="2"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.dianping.v1" type="user-app">
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="2"/>
+    </pkg>
+    <pkg name="com.iflytek.inputmethod" type="user-app">
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_call_log" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.jingdong.app.mall" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_call_log" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.handsgo.jiakao.android" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="access_contacts" permission="2"/>
+      <perms name="access_call_log" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="2"/>
+      <perms name="record_audio" permission="2"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.tmall.wireless" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="access_contacts" permission="1"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.sg.sledog" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_call_log" permission="1"/>
+      <perms name="access_sms" permission="1"/>
+      <perms name="access_mms" permission="1"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="2"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.pplive.androidphone" type="user-app">
+      <perms name="location" permission="2"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+    </pkg>
+    <pkg name="com.alibaba.mobileim" type="user-app">
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_call_log" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.letv.android.client" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="access_contacts" permission="2"/>
+      <perms name="access_call_log" permission="2"/>
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="2"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+    </pkg>
+    <pkg name="com.baidu.hao123" type="user-app">
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.ting.mp3.android" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.sdu.didi.psnger" type="user-app">
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_contacts" permission="2"/>
+      <perms name="access_call_log" permission="2"/>
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.wuba" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="access_contacts" permission="2"/>
+      <perms name="access_call_log" permission="2"/>
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.tudou.android" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+    </pkg>
+    <pkg name="com.android.easou.easousearch" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="access_contacts" permission="1"/>
+      <perms name="location" permission="1"/>
+    </pkg>
+    <pkg name="com.esvideo" type="user-app">
+      <perms name="location" permission="1"/>
+      <perms name="access_calendar" permission="2"/>
+      <perms name="camera" permission="2"/>
+      <perms name="record_audio" permission="2"/>
+    </pkg>
+    <pkg name="com.snda.youni" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_call_log" permission="1"/>
+      <perms name="access_sms" permission="1"/>
+      <perms name="access_mms" permission="1"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.huawei.hidisk" type="user-app">
+      <perms name="location" permission="2"/>
+    </pkg>
+    <pkg name="com.qihoo.video" type="user-app">
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="2"/>
+    </pkg>
+    <pkg name="cn.wps.moffice_eng" type="user-app">
+      <perms name="location" permission="2"/>
+    </pkg>
+    <pkg name="com.MobileTicket" type="user-app">
+      <perms name="location" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.tencent.WBlog" type="user-app">
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="2"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.lenovo.anyshare" type="user-app">
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_call_log" permission="1"/>
+      <perms name="access_sms" permission="1"/>
+      <perms name="access_mms" permission="1"/>
+      <perms name="location" permission="1"/>
+      <perms name="access_calendar" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="vStudio.Android.Camera360" type="user-app">
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+    </pkg>
+    <pkg name="com.lenovo.FileBrowser" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="location" permission="2"/>
+    </pkg>
+    <pkg name="com.esbook.reader" type="user-app">
+      <perms name="location" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.chinamworld.main" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_contacts" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="2"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.achievo.vipshop" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="jp.naver.line.android" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="access_contacts" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.tencent.qqmusic.samsung" type="user-app">
+      <perms name="location" permission="1"/>
+    </pkg>
+    <pkg name="com.moxiu.launcher" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="access_call_log" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="2"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="cn.goapk.market" type="user-app">
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.ct.client" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_call_log" permission="2"/>
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="2"/>
+    </pkg>
+    <pkg name="com.eshore.ezone" type="user-app">
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_call_log" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.aspire.mm" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_contacts" permission="2"/>
+      <perms name="access_call_log" permission="2"/>
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="2"/>
+      <perms name="camera" permission="2"/>
+      <perms name="record_audio" permission="2"/>
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.devuni.flashlight" type="user-app">
+      <perms name="location" permission="2"/>
+      <perms name="camera" permission="1"/>
+    </pkg>
+    <pkg name="com.nd.android.pandahome2" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_call_log" permission="1"/>
+      <perms name="access_sms" permission="1"/>
+      <perms name="access_mms" permission="1"/>
+      <perms name="location" permission="1"/>
+      <perms name="record_audio" permission="2"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.estrongs.android.pop" type="user-app">
+      <perms name="location" permission="2"/>
+    </pkg>
+    <pkg name="com.qq.reader" type="user-app">
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.funcity.taxi.passenger" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="access_contacts" permission="2"/>
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.sina.news" type="user-app">
+      <perms name="location" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.Qunar" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="access_contacts" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="access_calendar" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.zui.calendar" type="user-app">
+      <perms name="access_contacts" permission="1"/>
+      <perms name="location" permission="1"/>
+      <perms name="access_calendar" permission="1"/>
+      <perms name="notification" permission="1"/>
+      <perms name="get_phone_number" permission="1"/>
+      <perms name="get_accounts" permission="1"/>
+    </pkg>
+    <pkg name="com.zui.deskclock" type="user-app">
+      <perms name="location" permission="1"/>
+      <perms name="notification" permission="1"/>
+      <perms name="get_phone_number" permission="1"/>
+    </pkg>
+    <pkg name="com.zui.compass" type="user-app">
+      <perms name="location" permission="1"/>
+      <perms name="notification" permission="1"/>
+      <perms name="get_phone_number" permission="1"/>
+    </pkg>
+    <pkg name="com.zui.recorder" type="user-app">
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+      <perms name="get_phone_number" permission="1"/>
+    </pkg>
+    <pkg name="com.netease.mobimail.zui" type="user-app">
+      <perms name="send_sms" permission="1"/>
+      <perms name="send_mms" permission="1"/>
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_call_log" permission="1"/>
+      <perms name="access_sms" permission="1"/>
+      <perms name="access_mms" permission="1"/>
+      <perms name="location" permission="1"/>
+      <perms name="access_calendar" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="notification" permission="1"/>
+      <perms name="get_phone_number" permission="1"/>
+    </pkg>
+    <pkg name="com.sohu.inputmethod.sogou.zui" type="user-app">
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_call_log" permission="1"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="floating_window" permission="1"/>
+      <perms name="notification" permission="1"/>
+      <perms name="get_phone_number" permission="1"/>
+    </pkg>
+    <pkg name="com.lenovo.browser" type="user-app">
+      <perms name="send_sms" permission="1"/>
+      <perms name="send_mms" permission="1"/>
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_sms" permission="1"/>
+      <perms name="access_mms" permission="1"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.lenovo.leos.appstore" type="user-app">
+      <perms name="send_sms" permission="1"/>
+      <perms name="send_mms" permission="1"/>
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_sms" permission="1"/>
+      <perms name="access_mms" permission="1"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="notification" permission="1"/>
+      <perms name="get_phone_number" permission="1"/>
+      <perms name="get_accounts" permission="1"/>
+    </pkg>
+    <pkg name="com.zui.reader" type="user-app">
+      <perms name="send_sms" permission="1"/>
+      <perms name="send_mms" permission="1"/>
+      <perms name="access_sms" permission="1"/>
+      <perms name="access_mms" permission="1"/>
+      <perms name="location" permission="1"/>
+      <perms name="notification" permission="1"/>
+      <perms name="get_phone_number" permission="1"/>
+    </pkg>
+    <pkg name="com.sogou.activity.src" type="user-app">
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_call_log" permission="1"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+    </pkg>
+    <pkg name="com.qihoo360.mobilesafe_mtk6573" type="user-app">
+      <perms name="call" permission="4"/>
+      <perms name="send_sms" permission="4"/>
+      <perms name="send_mms" permission="4"/>
+      <perms name="access_contacts" permission="4"/>
+      <perms name="access_call_log" permission="4"/>
+      <perms name="access_sms" permission="4"/>
+      <perms name="access_mms" permission="4"/>
+      <perms name="location" permission="4"/>
+      <perms name="camera" permission="4"/>
+    </pkg>
+    <pkg name="com.qihoo.antivirus" type="user-app">
+      <perms name="call" permission="4"/>
+      <perms name="send_sms" permission="4"/>
+      <perms name="send_mms" permission="4"/>
+      <perms name="access_contacts" permission="4"/>
+      <perms name="access_call_log" permission="4"/>
+      <perms name="access_sms" permission="4"/>
+      <perms name="access_mms" permission="4"/>
+      <perms name="location" permission="4"/>
+      <perms name="camera" permission="4"/>
+      <perms name="record_audio" permission="4"/>
+    </pkg>
+    <pkg name="com.baidu.security" type="user-app">
+      <perms name="call" permission="4"/>
+      <perms name="send_sms" permission="4"/>
+      <perms name="send_mms" permission="4"/>
+      <perms name="access_contacts" permission="4"/>
+      <perms name="access_call_log" permission="4"/>
+      <perms name="access_sms" permission="4"/>
+      <perms name="access_mms" permission="4"/>
+      <perms name="location" permission="4"/>
+    </pkg>
+    <pkg name="com.lbe.security" type="user-app">
+      <perms name="call" permission="4"/>
+      <perms name="send_sms" permission="4"/>
+      <perms name="send_mms" permission="4"/>
+      <perms name="access_contacts" permission="4"/>
+      <perms name="access_call_log" permission="4"/>
+      <perms name="access_sms" permission="4"/>
+      <perms name="access_mms" permission="4"/>
+      <perms name="location" permission="4"/>
+      <perms name="camera" permission="4"/>
+    </pkg>
+    <pkg name="com.ijinshan.mguard" type="user-app">
+      <perms name="call" permission="4"/>
+      <perms name="send_sms" permission="4"/>
+      <perms name="send_mms" permission="4"/>
+      <perms name="access_contacts" permission="4"/>
+      <perms name="access_call_log" permission="4"/>
+      <perms name="access_sms" permission="4"/>
+      <perms name="access_mms" permission="4"/>
+      <perms name="location" permission="4"/>
+      <perms name="camera" permission="2"/>
+    </pkg>
+    <pkg name="com.anguanjia.safe" type="user-app">
+      <perms name="call" permission="4"/>
+      <perms name="send_sms" permission="4"/>
+      <perms name="send_mms" permission="4"/>
+      <perms name="access_contacts" permission="4"/>
+      <perms name="access_call_log" permission="4"/>
+      <perms name="access_sms" permission="4"/>
+      <perms name="access_mms" permission="4"/>
+      <perms name="location" permission="4"/>
+      <perms name="camera" permission="4"/>
+    </pkg>
+    <pkg name="com.anyisheng.doctoran" type="user-app">
+      <perms name="call" permission="4"/>
+      <perms name="send_sms" permission="4"/>
+      <perms name="send_mms" permission="4"/>
+      <perms name="access_contacts" permission="4"/>
+      <perms name="access_call_log" permission="4"/>
+      <perms name="access_sms" permission="4"/>
+      <perms name="access_mms" permission="4"/>
+      <perms name="location" permission="4"/>
+      <perms name="camera" permission="4"/>
+    </pkg>
+    <pkg name="com.nqmobile.antivirus20" type="user-app">
+      <perms name="call" permission="4"/>
+      <perms name="send_sms" permission="4"/>
+      <perms name="send_mms" permission="4"/>
+      <perms name="access_contacts" permission="4"/>
+      <perms name="access_call_log" permission="4"/>
+      <perms name="access_sms" permission="4"/>
+      <perms name="access_mms" permission="4"/>
+      <perms name="location" permission="4"/>
+      <perms name="camera" permission="4"/>
+    </pkg>
+    <pkg name="com.tencent.token" type="user-app">
+      <perms name="call" permission="4"/>
+      <perms name="send_sms" permission="4"/>
+      <perms name="send_mms" permission="4"/>
+      <perms name="access_sms" permission="4"/>
+      <perms name="access_mms" permission="4"/>
+      <perms name="location" permission="4"/>
+      <perms name="camera" permission="4"/>
+    </pkg>
+    <pkg name="kvpioneer.cmcc" type="user-app">
+      <perms name="call" permission="4"/>
+      <perms name="send_sms" permission="4"/>
+      <perms name="send_mms" permission="4"/>
+      <perms name="access_contacts" permission="4"/>
+      <perms name="access_call_log" permission="4"/>
+      <perms name="access_sms" permission="4"/>
+      <perms name="access_mms" permission="4"/>
+      <perms name="location" permission="4"/>
+      <perms name="camera" permission="4"/>
+    </pkg>
+    <pkg name="com.kindroid.security" type="user-app">
+      <perms name="call" permission="4"/>
+      <perms name="send_sms" permission="4"/>
+      <perms name="send_mms" permission="4"/>
+      <perms name="access_contacts" permission="4"/>
+      <perms name="access_call_log" permission="4"/>
+      <perms name="access_sms" permission="4"/>
+      <perms name="access_mms" permission="4"/>
+      <perms name="location" permission="4"/>
+    </pkg>
+    <pkg name="com.yy.android.udbsec" type="user-app">
+      <perms name="location" permission="4"/>
+      <perms name="camera" permission="4"/>
+    </pkg>
+    <pkg name="project.rising" type="user-app">
+      <perms name="call" permission="4"/>
+      <perms name="send_sms" permission="4"/>
+      <perms name="send_mms" permission="4"/>
+      <perms name="access_contacts" permission="4"/>
+      <perms name="access_call_log" permission="4"/>
+      <perms name="access_sms" permission="4"/>
+      <perms name="access_mms" permission="4"/>
+      <perms name="location" permission="4"/>
+      <perms name="camera" permission="4"/>
+    </pkg>
+    <pkg name="com.zrgiu.antivirus" type="user-app">
+      <perms name="call" permission="4"/>
+      <perms name="send_sms" permission="4"/>
+      <perms name="send_mms" permission="4"/>
+      <perms name="access_contacts" permission="4"/>
+      <perms name="access_call_log" permission="4"/>
+      <perms name="access_sms" permission="4"/>
+      <perms name="access_mms" permission="4"/>
+      <perms name="location" permission="4"/>
+      <perms name="camera" permission="4"/>
+    </pkg>
+    <pkg name="com.kms" type="user-app">
+      <perms name="call" permission="4"/>
+      <perms name="send_sms" permission="4"/>
+      <perms name="send_mms" permission="4"/>
+      <perms name="access_contacts" permission="4"/>
+      <perms name="access_call_log" permission="4"/>
+      <perms name="access_sms" permission="4"/>
+      <perms name="access_mms" permission="4"/>
+      <perms name="location" permission="4"/>
+      <perms name="access_calendar" permission="4"/>
+    </pkg>
+    <pkg name="com.kms.free" type="user-app">
+      <perms name="call" permission="4"/>
+      <perms name="send_sms" permission="4"/>
+      <perms name="send_mms" permission="4"/>
+      <perms name="access_contacts" permission="4"/>
+      <perms name="access_call_log" permission="4"/>
+      <perms name="access_sms" permission="4"/>
+      <perms name="access_mms" permission="4"/>
+      <perms name="location" permission="4"/>
+      <perms name="access_calendar" permission="4"/>
+      <perms name="camera" permission="4"/>
+    </pkg>
+    <pkg name="com.symantec.mobilesecurity" type="user-app">
+      <perms name="call" permission="4"/>
+      <perms name="send_sms" permission="4"/>
+      <perms name="send_mms" permission="4"/>
+      <perms name="access_contacts" permission="4"/>
+      <perms name="access_call_log" permission="4"/>
+      <perms name="access_sms" permission="4"/>
+      <perms name="access_mms" permission="4"/>
+      <perms name="location" permission="4"/>
+      <perms name="access_calendar" permission="4"/>
+      <perms name="camera" permission="4"/>
+    </pkg>
+    <pkg name="com.mobileann.MobileAnn" type="user-app">
+      <perms name="call" permission="4"/>
+      <perms name="send_sms" permission="4"/>
+      <perms name="send_mms" permission="4"/>
+      <perms name="access_contacts" permission="4"/>
+      <perms name="access_call_log" permission="4"/>
+      <perms name="access_sms" permission="4"/>
+      <perms name="access_mms" permission="4"/>
+      <perms name="location" permission="4"/>
+    </pkg>
+    <pkg name="com.suning.phonesecurity" type="user-app">
+      <perms name="call" permission="4"/>
+      <perms name="send_sms" permission="4"/>
+      <perms name="send_mms" permission="4"/>
+      <perms name="access_sms" permission="4"/>
+      <perms name="access_mms" permission="4"/>
+      <perms name="location" permission="4"/>
+      <perms name="access_calendar" permission="4"/>
+      <perms name="camera" permission="4"/>
+    </pkg>
+    <pkg name="com.antivirus" type="user-app">
+      <perms name="call" permission="4"/>
+      <perms name="send_sms" permission="4"/>
+      <perms name="send_mms" permission="4"/>
+      <perms name="access_contacts" permission="4"/>
+      <perms name="access_call_log" permission="4"/>
+      <perms name="access_sms" permission="4"/>
+      <perms name="access_mms" permission="4"/>
+      <perms name="location" permission="4"/>
+      <perms name="access_calendar" permission="4"/>
+      <perms name="camera" permission="4"/>
+    </pkg>
+    <pkg name="com.cleanmaster.security_cn" type="user-app">
+      <perms name="call" permission="4"/>
+      <perms name="send_sms" permission="4"/>
+      <perms name="send_mms" permission="4"/>
+      <perms name="access_contacts" permission="4"/>
+      <perms name="access_call_log" permission="4"/>
+      <perms name="access_sms" permission="4"/>
+      <perms name="access_mms" permission="4"/>
+      <perms name="location" permission="4"/>
+      <perms name="camera" permission="4"/>
+    </pkg>
+    <pkg name="com.tdx.safe" type="user-app">
+      <perms name="location" permission="4"/>
+      <perms name="camera" permission="4"/>
+    </pkg>
+    <pkg name="com.netqin.mobileguard" type="user-app">
+      <perms name="location" permission="4"/>
+    </pkg>
+    <pkg name="com.qihoo360.mobilesafe" type="user-app">
+      <perms name="call" permission="4"/>
+      <perms name="send_sms" permission="4"/>
+      <perms name="send_mms" permission="4"/>
+      <perms name="access_contacts" permission="4"/>
+      <perms name="access_call_log" permission="4"/>
+      <perms name="access_sms" permission="4"/>
+      <perms name="access_mms" permission="4"/>
+      <perms name="location" permission="4"/>
+      <perms name="camera" permission="4"/>
+      <perms name="record_audio" permission="4"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="cn.opda.a.phonoalbumshoushou" type="user-app">
+      <perms name="call" permission="4"/>
+      <perms name="send_sms" permission="4"/>
+      <perms name="send_mms" permission="4"/>
+      <perms name="access_contacts" permission="4"/>
+      <perms name="access_call_log" permission="4"/>
+      <perms name="access_sms" permission="4"/>
+      <perms name="access_mms" permission="4"/>
+      <perms name="location" permission="4"/>
+      <perms name="camera" permission="4"/>
+      <perms name="record_audio" permission="4"/>
+    </pkg>
+    <pkg name="com.tencent.qqpimsecure" type="user-app">
+      <perms name="call" permission="4"/>
+      <perms name="send_sms" permission="4"/>
+      <perms name="send_mms" permission="4"/>
+      <perms name="access_contacts" permission="4"/>
+      <perms name="access_call_log" permission="4"/>
+      <perms name="access_sms" permission="4"/>
+      <perms name="access_mms" permission="4"/>
+      <perms name="location" permission="4"/>
+      <perms name="camera" permission="4"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.cleanmaster.mguard_cn" type="user-app">
+      <perms name="access_contacts" permission="4"/>
+      <perms name="access_call_log" permission="4"/>
+      <perms name="access_sms" permission="4"/>
+      <perms name="access_mms" permission="4"/>
+      <perms name="location" permission="4"/>
+      <perms name="camera" permission="4"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.ijinshan.duba" type="user-app">
+      <perms name="call" permission="4"/>
+      <perms name="access_contacts" permission="4"/>
+      <perms name="access_call_log" permission="4"/>
+      <perms name="access_sms" permission="4"/>
+      <perms name="access_mms" permission="4"/>
+      <perms name="location" permission="4"/>
+      <perms name="camera" permission="4"/>
+    </pkg>
+    <pkg name="com.baidu.passport.securitycenter" type="user-app">
+      <perms name="send_sms" permission="4"/>
+      <perms name="send_mms" permission="4"/>
+      <perms name="location" permission="4"/>
+      <perms name="camera" permission="4"/>
+    </pkg>
+    <pkg name="com.baidu.passport.securitycenter" type="user-app">
+      <perms name="send_sms" permission="4"/>
+      <perms name="send_mms" permission="4"/>
+      <perms name="location" permission="4"/>
+      <perms name="camera" permission="4"/>
+    </pkg>
+    <pkg name="com.zui.gameworldphone" type="user-app">
+      <perms name="send_sms" permission="1"/>
+      <perms name="send_mms" permission="1"/>
+      <perms name="access_sms" permission="1"/>
+      <perms name="access_mms" permission="1"/>
+      <perms name="location" permission="1"/>
+      <perms name="notification" permission="1"/>
+      <perms name="get_phone_number" permission="1"/>
+      <perms name="get_accounts" permission="1"/>
+    </pkg>
+    <pkg name="com.wandoujia.phoenix2.usbproxy" type="user-app">
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_sms" permission="1"/>
+      <perms name="access_mms" permission="1"/>
+      <perms name="location" permission="2"/>
+    </pkg>
+    <pkg name="com.xiaomi.market" type="user-app">
+      <perms name="location" permission="2"/>
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.huawei.appmarket" type="user-app">
+      <perms name="location" permission="2"/>
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.smile.gifmaker" type="user-app">
+      <perms name="access_contacts" permission="1"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+    </pkg>
+    <pkg name="com.kingroot.kinguser" type="user-app">
+      <perms name="location" permission="2"/>
+      <perms name="camera" permission="2"/>
+    </pkg>
+    <pkg name="com.qihoo.freewifi" type="user-app">
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+    </pkg>
+    <pkg name="com.weather" type="user-app">
+      <perms name="location" permission="1"/>
+    </pkg>
+    <pkg name="com.corp21cn.mail189" type="user-app">
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_call_log" permission="2"/>
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.icoolme.android.weather" type="user-app">
+      <perms name="location" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.cn21.ecloud" type="user-app">
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_call_log" permission="1"/>
+      <perms name="access_sms" permission="1"/>
+      <perms name="access_mms" permission="1"/>
+      <perms name="location" permission="1"/>
+      <perms name="access_calendar" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="2"/>
+    </pkg>
+    <pkg name="com.meilishuo" type="user-app">
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_contacts" permission="1"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="2"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.lasun.mobile.client.activity" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="access_contacts" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="2"/>
+    </pkg>
+    <pkg name="com.android.vending" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.yingyonghui.market" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.mumayi.market.ui" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.nduoa.market" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.eoemobile.netmarket" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.netease.apper" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.mappn.gfan" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.anzhuocom.market" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.jiubang.market" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="www3gyu.com" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.uucun1622.android.cms" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="oms.danle" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.dragon.android.pandaspace.pad" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.sogou.appmall" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.liqucn.android" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.angeeks.market" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.sec.android.app.samsungapps" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="cn.cst.apps.android" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.gionee.aora.market" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.suning.market" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.banma.market" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.newpower" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.uc.appstore" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.infinit.wostore.ui" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.kaiqi" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="cn.com.zol.market" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.muzhiwan.market" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.sohu.android.market" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.doudouyou.client" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.baoruan.appstore" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.uucun838.android.cms" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.feiliu" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.apkok.gmarket" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.amazon.venezia" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.appsfire.appsfire" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.mumayi.market3g.ui" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.mooyy" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.anshouji.market.enduser" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.lexteltech.mon" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.bzh.market.ui" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.ijinshan.ShouJiKong.AndroidDaemon" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.bodong.coolplay" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.coolapk.market" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="cn.ninegame.gamemanager" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="cn.ninegame.gamemanagerhd" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.m4399.gamecenter" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.paojiao.gamecenter" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="cn.ninegame.gamemanager.yz" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.huawei.gamebox" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.diguayouxi" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.socogame.ppc" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="cn.mbga.portal" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.shendu.gamecenter" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.jr.gamecenter" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="app.ucgame.cn" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.vivo.game" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.feiliu.gamecenter" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.sogou.gamemall" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.example.lanyou" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.lokinfo.android.gamemarket" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.viaplay.ime" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.sohu.gamecenter" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.androidemu.leo" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.baozigames.gamecenter" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.baoruan.lewan" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.cooee.gamecenter" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.nd.gamecenter91" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.tencent.gameCenter" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.ssjj.gamecenter" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.sohu.store" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.yulong.android.coolmart" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.oppo.market" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="cn.com.vapk.vstore.client" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="zte.com.market" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.letv.tvos.appstore" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.wcx.nfc_reader" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.suning.markethd" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.market" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.crossmo.mobile.appstore" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="cn.gamedog.market" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="cn.ggg.market" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.zdqk.sinacard" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.skymobi.appstore" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.muzhiwan.market.hd" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.xunlei.appmarket" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.idiantech.kuaihuwifi" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.aimi.appstore" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.hulu.market" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.chinaway.android.appmarket" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.zui.filemanager" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.sogou.wallpaper" type="user-app">
+      <perms name="floating_window" permission="1"/>
+    </pkg>
+    <pkg name="com.miui.mihome2" type="user-app">
+      <perms name="floating_window" permission="1"/>
+    </pkg>
+    <pkg name="mobi.thinkchange.android.fingerscannercn" type="user-app">
+      <perms name="floating_window" permission="1"/>
+    </pkg>
+    <pkg name="com.zuimeia.suite.lockscreen" type="user-app">
+      <perms name="floating_window" permission="1"/>
+    </pkg>
+    <pkg name="com.zui.browser" type="user-app">
+      <perms name="send_sms" permission="1"/>
+      <perms name="send_mms" permission="1"/>
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_sms" permission="1"/>
+      <perms name="access_mms" permission="1"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="notification" permission="1"/>
+      <perms name="get_phone_number" permission="1"/>
+      <perms name="get_accounts" permission="1"/>
+    </pkg>
+    <pkg name="com.zui.calculator" type="user-app">
+      <perms name="notification" permission="4"/>
+    </pkg>
+    <pkg name="com.ijinshan.browser" type="user-app">
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="fm.xiami.main" type="user-app">
+      <perms name="location" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.netease.cloudmusic" type="user-app">
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_call_log" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.duomi.android" type="user-app">
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.douban.radio" type="user-app">
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.baidu.baidufm" type="user-app">
+      <perms name="access_contacts" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.ximalaya.ting.android" type="user-app">
+      <perms name="location" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.yibasan.lizhifm" type="user-app">
+      <perms name="location" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="fm.qingting.qtradio" type="user-app">
+      <perms name="location" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="bubei.tingshu" type="user-app">
+      <perms name="location" permission="2"/>
+      <perms name="record_audio" permission="2"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.kuaikan.comic" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.ishugui" type="user-app">
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="2"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.android.comicsisland.activity" type="user-app">
+      <perms name="access_contacts" permission="2"/>
+      <perms name="access_call_log" permission="2"/>
+      <perms name="location" permission="2"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="cn.ibuka.manga.ui" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.yk.mhb" type="user-app">
+      <perms name="location" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.youdao.dict" type="user-app">
+      <perms name="access_contacts" permission="2"/>
+      <perms name="access_call_log" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.kingsoft" type="user-app">
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.fenbi.android.solar" type="user-app">
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.baidu.homework" type="user-app">
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.wenba.bangbang" type="user-app">
+      <perms name="access_contacts" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.fenbi.android.gaozhong" type="user-app">
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.xiaobanlong.main" type="user-app">
+      <perms name="location" permission="2"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.slanissue.apps.mobile.erge" type="user-app">
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="2"/>
+      <perms name="camera" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="cn.eclicks.drivingtest" type="user-app">
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="2"/>
+      <perms name="record_audio" permission="2"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.koudai.weishop" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.mogujie" type="user-app">
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.jm.android.jumei" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.thestore.main" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_contacts" permission="2"/>
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="access_calendar" permission="2"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="2"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.ganji.android" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_contacts" permission="2"/>
+      <perms name="access_call_log" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.soufun.app" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.anjuke.android.app" type="user-app">
+      <perms name="send_sms" permission="2"/>
+      <perms name="access_contacts" permission="2"/>
+      <perms name="access_call_log" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="2"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.tuniu.app.ui" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="access_contacts" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="ctrip.android.view" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="access_contacts" permission="2"/>
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="2"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.autonavi.xmgd.navigator" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="floating_window" permission="1"/>
+    </pkg>
+    <pkg name="com.taobao.trip" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_sms" permission="1"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="access_calendar" permission="2"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.codoon.gps" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_call_log" permission="2"/>
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="2"/>
+      <perms name="notification" permission="1"/>
+      <perms name="body_sensors" permission="1"/>
+    </pkg>
+    <pkg name="com.fittimellc.fittime" type="user-app">
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.gotokeep.keep" type="user-app">
+      <perms name="send_sms" permission="2"/>
+      <perms name="access_contacts" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="access_calendar" permission="2"/>
+      <perms name="camera" permission="2"/>
+      <perms name="record_audio" permission="2"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="cn.ledongli.ldl" type="user-app">
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_contacts" permission="2"/>
+      <perms name="access_call_log" permission="2"/>
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="notification" permission="1"/>
+      <perms name="body_sensors" permission="1"/>
+    </pkg>
+    <pkg name="com.sportqsns" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="access_contacts" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.renren.mobile.android" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_call_log" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="access_calendar" permission="2"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.duowan.mobile" type="user-app">
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.soft.blued" type="user-app">
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.douban.frodo" type="user-app">
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.baidu.tieba" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_contacts" permission="2"/>
+      <perms name="access_call_log" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.xiaomi.channel" type="user-app">
+      <perms name="call" permission="1"/>
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="cn.com.fetion" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.bilin.huijiao.activity" type="user-app">
+      <perms name="access_sms" permission="2"/>
+      <perms name="access_mms" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.tencent.qqlite" type="user-app">
+      <perms name="call" permission="1"/>
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_call_log" permission="1"/>
+      <perms name="access_sms" permission="1"/>
+      <perms name="access_mms" permission="1"/>
+      <perms name="location" permission="1"/>
+      <perms name="access_calendar" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.tencent.mobileqqi" type="user-app">
+      <perms name="call" permission="1"/>
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_call_log" permission="1"/>
+      <perms name="access_sms" permission="1"/>
+      <perms name="access_mms" permission="1"/>
+      <perms name="location" permission="1"/>
+      <perms name="access_calendar" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.tencent.qq.kddi" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.xiaoenai.app" type="user-app">
+      <perms name="location" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="im.yixin" type="user-app">
+      <perms name="call" permission="1"/>
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_call_log" permission="1"/>
+      <perms name="access_sms" permission="1"/>
+      <perms name="access_mms" permission="1"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.baidu.hi" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.skype.raider" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.youyuan.yyhl" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.alibaba.android.babylon" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.jiayuan" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.welove520.welove" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.lofter.android" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.netease.mail" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.youdao.note" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="cn.cj.pe" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.taou.maimai" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="net.icycloud.fdtodolist" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.baidu.netdisk" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.baidu.baidutranslate" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.asiainfo.android" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.adobe.reader" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.lingan.seeyou" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.dayima" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="me.chunyu.ChunyuDoctor" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.dw.btime" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.dailyyoga.cn" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.mandian.android.dongdong" type="user-app">
+      <perms name="notification" permission="1"/>
+      <perms name="body_sensors" permission="1"/>
+    </pkg>
+    <pkg name="me.chunyu.Pedometer" type="user-app">
+      <perms name="notification" permission="1"/>
+      <perms name="body_sensors" permission="1"/>
+    </pkg>
+    <pkg name="com.ts.zys" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.medapp.all" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.medapp" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.medapp.man" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.haodf.android" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.sz.order" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="cn.emoney.level2" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.tenpay.android" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="chinatelecom.mwallet" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.wacai365" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.zhangdan.app" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.mymoney.sms" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.android.dazhihui" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="lthj.exchangestock" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.ali.money.shield" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.wangyin.payment" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.icbc" type="user-app">
+      <perms name="floating_window" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.android.bankabc" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.chinamworld.bocmbci" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="cmb.pb" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="cn.com.cmbc.mbank" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.pingan.pabank.activity" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.eastmoney.android.berlin" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.pingan.lifeinsurance" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.bankcomm" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.rytong.bankps" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.cgbchina.xpt" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.jd.jrapp" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="howbuy.android.palmfund" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.iboxpay.minicashbox" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.android.haitong" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.yidian.xiaomi" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.cubic.autohome" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.yiche.autoeasy" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.hipu.yidian" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.zhihu.daily.android" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.baidu.news" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="qsbk.app" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.ss.android.essay.joke" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.myzaker.ZAKER_Phone" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.google.android.apps.maps" type="user-app">
+      <perms name="location" permission="1"/>
+    </pkg>
+    <pkg name="com.tencent.map" type="user-app">
+      <perms name="location" permission="1"/>
+    </pkg>
+    <pkg name="com.pdager" type="user-app">
+      <perms name="location" permission="1"/>
+    </pkg>
+    <pkg name="com.autonavi.cmccmap" type="user-app">
+      <perms name="location" permission="1"/>
+    </pkg>
+    <pkg name="com.mapbar.android.mapbarmap" type="user-app">
+      <perms name="location" permission="1"/>
+    </pkg>
+    <pkg name="com.sogou.map.android.maps" type="user-app">
+      <perms name="location" permission="1"/>
+    </pkg>
+    <pkg name="com.tigerknows" type="user-app">
+      <perms name="location" permission="1"/>
+    </pkg>
+    <pkg name="cn.com.tiros.android.navidog" type="user-app">
+      <perms name="location" permission="1"/>
+    </pkg>
+    <pkg name="cld.navi.mainframe" type="user-app">
+      <perms name="location" permission="1"/>
+    </pkg>
+    <pkg name="com.baidu.navi" type="user-app">
+      <perms name="location" permission="1"/>
+    </pkg>
+    <pkg name="com.xiaomi.hm.health" type="user-app">
+      <perms name="location" permission="1"/>
+      <perms name="body_sensors" permission="1"/>
+    </pkg>
+    <pkg name="com.yuedong.sport" type="user-app">
+      <perms name="location" permission="1"/>
+      <perms name="body_sensors" permission="1"/>
+    </pkg>
+    <pkg name="co.runner.app" type="user-app">
+      <perms name="location" permission="1"/>
+      <perms name="body_sensors" permission="1"/>
+    </pkg>
+    <pkg name="com.edooon.gps" type="user-app">
+      <perms name="location" permission="1"/>
+      <perms name="body_sensors" permission="1"/>
+    </pkg>
+    <pkg name="com.lenovo.anyshare.cloneit" type="user-app">
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_call_log" permission="1"/>
+      <perms name="access_sms" permission="1"/>
+      <perms name="access_mms" permission="1"/>
+      <perms name="location" permission="1"/>
+      <perms name="access_calendar" permission="1"/>
+      <perms name="notification" permission="1"/>
+      <perms name="get_phone_number" permission="1"/>
+      <perms name="get_accounts" permission="1"/>
+    </pkg>
+    <pkg name="com.qwebob.generaldev" type="user-app">
+      <perms name="call" permission="1"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="floating_window" permission="1"/>
+    </pkg>
+    <pkg name="com.lx.launcher" type="user-app">
+      <perms name="floating_window" permission="1"/>
+    </pkg>
+    <pkg name="com.microsoft.office.outlook" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.shengqi.mgc" type="user-app">
+      <perms name="send_sms" permission="1"/>
+      <perms name="send_mms" permission="1"/>
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_call_log" permission="1"/>
+      <perms name="access_sms" permission="1"/>
+      <perms name="access_mms" permission="1"/>
+      <perms name="location" permission="1"/>
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.kingsoft.email" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.zui.youku.video" type="user-app">
+      <perms name="call" permission="1"/>
+      <perms name="send_sms" permission="1"/>
+      <perms name="send_mms" permission="1"/>
+      <perms name="access_sms" permission="1"/>
+      <perms name="access_mms" permission="1"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="notification" permission="1"/>
+      <perms name="get_phone_number" permission="1"/>
+    </pkg>
+    <pkg name="com.example.android.apis" type="user-app">
+      <perms name="notification" permission="2"/>
+    </pkg>
+    <pkg name="com.zui.sdac" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.lazyswipe" type="user-app">
+      <perms name="floating_window" permission="1"/>
+    </pkg>
+    <pkg name="com.twitter.android" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.facebook.katana" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="jp.naver.line.android" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.whatsapp" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="kik.android" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.viber.voip" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.kakao.talk" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.facebook.orca" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="com.baozoumanhua.android" type="user-app">
+      <perms name="location" permission="1"/>
+    </pkg>
+    <pkg name="com.lenovo.gps" type="user-app">
+      <perms name="body_sensors" permission="1"/>
+    </pkg>
+    <pkg name="com.nike.plusgps" type="user-app">
+      <perms name="body_sensors" permission="1"/>
+    </pkg>
+    <pkg name="com.nike.plusgpschina" type="user-app">
+      <perms name="body_sensors" permission="1"/>
+    </pkg>
+    <pkg name="com.hupu.joggers" type="user-app">
+      <perms name="body_sensors" permission="1"/>
+    </pkg>
+    <pkg name="com.tulipsport.run" type="user-app">
+      <perms name="body_sensors" permission="1"/>
+    </pkg>
+    <pkg name="com.endomondo.android.pro" type="user-app">
+      <perms name="body_sensors" permission="1"/>
+    </pkg>
+    <pkg name="cn.runagain.run" type="user-app">
+      <perms name="body_sensors" permission="1"/>
+    </pkg>
+    <pkg name="com.runtastic.android.pro2" type="user-app">
+      <perms name="body_sensors" permission="1"/>
+    </pkg>
+    <pkg name="com.adidas.micoach" type="user-app">
+      <perms name="body_sensors" permission="1"/>
+    </pkg>
+    <pkg name="com.sevenfifteen.sportsman" type="user-app">
+      <perms name="body_sensors" permission="1"/>
+    </pkg>
+    <pkg name="com.fox.exercise" type="user-app">
+      <perms name="body_sensors" permission="1"/>
+    </pkg>
+    <pkg name="com.hoolai.magic" type="user-app">
+      <perms name="body_sensors" permission="1"/>
+    </pkg>
+    <pkg name="com.lvtech.hipal" type="user-app">
+      <perms name="body_sensors" permission="1"/>
+    </pkg>
+    <pkg name="com.wowsai.yundongker" type="user-app">
+      <perms name="body_sensors" permission="1"/>
+    </pkg>
+    <pkg name="com.yueyundong" type="user-app">
+      <perms name="body_sensors" permission="1"/>
+    </pkg>
+    <pkg name="com.tenmini.sports" type="user-app">
+      <perms name="body_sensors" permission="1"/>
+    </pkg>
+    <pkg name="com.zfenan.jibu.qiqi.main" type="user-app">
+      <perms name="body_sensors" permission="1"/>
+    </pkg>
+    <pkg name="com.zui.email" type="user-app">
+      <perms name="call" permission="2"/>
+      <perms name="location" permission="1"/>
+      <perms name="access_calendar" permission="1"/>
+      <perms name="get_phone_number" permission="2"/>
+      <perms name="get_accounts" permission="1"/>
+    </pkg>
+    <pkg name="com.zui.usercenter" type="user-app">
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_contacts" permission="1"/>
+      <perms name="access_sms" permission="1"/>
+      <perms name="access_mms" permission="1"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="notification" permission="1"/>
+      <perms name="get_phone_number" permission="1"/>
+      <perms name="get_accounts" permission="1"/>
+    </pkg>
+    <pkg name="com.qqreader.lenovo" type="user-app">
+      <perms name="send_sms" permission="2"/>
+      <perms name="send_mms" permission="2"/>
+      <perms name="access_sms" permission="1"/>
+      <perms name="access_mms" permission="1"/>
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="get_phone_number" permission="1"/>
+      <perms name="get_accounts" permission="1"/>
+    </pkg>
+    <pkg name="com.zui.zhealthy" type="user-app">
+      <perms name="notification" permission="1"/>
+    </pkg>
+    <pkg name="NLP-com.amap.android.location com.autonavi.minimap" type="user-app">
+      <perms name="location" permission="1"/>
+      <perms name="camera" permission="1"/>
+      <perms name="record_audio" permission="1"/>
+      <perms name="notification" permission="1"/>
+      <perms name="get_phone_number" permission="2"/>
+    </pkg>
+  </application>
+</appops-policy>
