@@ -18,7 +18,6 @@ PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libtime_genoff \
     datastatusnotification \
-    embms \
     fastdormancy \
     QtiTelephonyService \
     shutdownlistener \

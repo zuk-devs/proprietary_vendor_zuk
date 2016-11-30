@@ -53,17 +53,6 @@ LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := embms
-LOCAL_MODULE_OWNER := zuk
-LOCAL_SRC_FILES := vendor/system/app/embms/embms.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := fastdormancy
 LOCAL_MODULE_OWNER := zuk
 LOCAL_SRC_FILES := vendor/system/app/fastdormancy/fastdormancy.apk
