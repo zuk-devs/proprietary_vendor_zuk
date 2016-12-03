@@ -18,16 +18,13 @@ PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libtime_genoff \
     datastatusnotification \
-    fastdormancy \
     QtiTelephonyService \
     shutdownlistener \
     TimeService \
     CNEService \
     com.qualcomm.location \
-    dpmserviceapp \
     qcrilmsgtunnel \
     colorservice \
-    qcnvitems \
     qcrilhook
 
 $(call inherit-product, vendor/qcom/binaries/msm8996/graphics/graphics-vendor.mk)
