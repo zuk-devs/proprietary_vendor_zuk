@@ -217,6 +217,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/ham/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/zuk/ham/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/zuk/ham/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
+    vendor/zuk/ham/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so \
     vendor/zuk/ham/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/zuk/ham/proprietary/vendor/lib/libtfa98xx.so:system/vendor/lib/libtfa98xx.so \
     vendor/zuk/ham/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
