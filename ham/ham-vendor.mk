@@ -105,7 +105,8 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/ham/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/zuk/ham/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/zuk/ham/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
-    vendor/zuk/ham/proprietary/vendor/lib/libtfa98xx.so:system/vendor/lib/libtfa98xx.so
+    vendor/zuk/ham/proprietary/vendor/lib/libtfa98xx.so:system/vendor/lib/libtfa98xx.so \
+    vendor/zuk/ham/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so
 
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
