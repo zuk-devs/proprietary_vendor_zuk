@@ -643,7 +643,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/zuk/z2_plus/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/zuk/z2_plus/proprietary/etc/capability.xml:system/etc/capability.xml \
-    vendor/zuk/z2_plus/proprietary/etc/init.qcom.post_boot.sh:system/etc/init.qcom.post_boot.sh \
     vendor/zuk/z2_plus/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/zuk/z2_plus/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/zuk/z2_plus/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
