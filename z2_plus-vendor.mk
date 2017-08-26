@@ -528,9 +528,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libqmi_common_so.so:system/vendor/lib64/libqmi_common_so.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libfastcvopt.so:system/vendor/lib64/libfastcvopt.so \
-    vendor/zuk/z2_plus/proprietary/vendor/app/imssettings/imssettings.apk:system/vendor/app/imssettings/imssettings.apk \
-    vendor/zuk/z2_plus/proprietary/vendor/app/colorservice/colorservice.apk:system/vendor/app/colorservice/colorservice.apk \
-    vendor/zuk/z2_plus/proprietary/vendor/app/ims/ims.apk:system/vendor/app/ims/ims.apk \
     vendor/zuk/z2_plus/proprietary/vendor/qcril.db:system/vendor/qcril.db \
     vendor/zuk/z2_plus/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/zuk/z2_plus/proprietary/bin/pm-proxy:system/bin/pm-proxy \
@@ -660,10 +657,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     vendor/zuk/z2_plus/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/zuk/z2_plus/proprietary/lib64/hw/fingerprint.qcom.so:system/lib64/hw/fingerprint.qcom.so \
-    vendor/zuk/z2_plus/proprietary/app/shutdownlistener/shutdownlistener.apk:system/app/shutdownlistener/shutdownlistener.apk \
-    vendor/zuk/z2_plus/proprietary/app/QtiTelephonyService/QtiTelephonyService.apk:system/app/QtiTelephonyService/QtiTelephonyService.apk \
-    vendor/zuk/z2_plus/proprietary/app/datastatusnotification/datastatusnotification.apk:system/app/datastatusnotification/datastatusnotification.apk \
-    vendor/zuk/z2_plus/proprietary/app/TimeService/TimeService.apk:system/app/TimeService/TimeService.apk \
     vendor/zuk/z2_plus/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/zuk/z2_plus/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/zuk/z2_plus/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
@@ -679,9 +672,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/usr/idc/usf_tsc_ptr.idc:system/usr/idc/usf_tsc_ptr.idc \
     vendor/zuk/z2_plus/proprietary/usr/idc/usf_tsc.idc:system/usr/idc/usf_tsc.idc \
     vendor/zuk/z2_plus/proprietary/usr/idc/usf_tsc_ext.idc:system/usr/idc/usf_tsc_ext.idc \
-    vendor/zuk/z2_plus/proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk:system/priv-app/com.qualcomm.location/com.qualcomm.location.apk \
-    vendor/zuk/z2_plus/proprietary/priv-app/CNEService/CNEService.apk:system/priv-app/CNEService/CNEService.apk \
-    vendor/zuk/z2_plus/proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk:system/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
@@ -697,4 +687,6 @@ PRODUCT_PACKAGES += \
     qcrilhook \
     com.qualcomm.qti.Performance.xml \
     libqti_performance \
-    QPerformance
+    QPerformance \
+    ims \
+    imssettings
