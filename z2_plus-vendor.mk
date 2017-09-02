@@ -563,6 +563,8 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
     vendor/zuk/z2_plus/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/zuk/z2_plus/proprietary/etc/firmware/nvm_tlv_3.2.bin:system/etc/firmware/nvm_tlv_3.2.bin \
+    vendor/zuk/z2_plus/proprietary/etc/firmware/btfw32.tlv:system/etc/firmware/btfw32.tlv \
+    vendor/zuk/z2_plus/proprietary/etc/firmware/btnv32.bin:system/etc/firmware/btnv32.bin \
     vendor/zuk/z2_plus/proprietary/etc/firmware/a530v1_pm4.fw:system/etc/firmware/a530v1_pm4.fw \
     vendor/zuk/z2_plus/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
     vendor/zuk/z2_plus/proprietary/etc/firmware/a530_zap.b01:system/etc/firmware/a530_zap.b01 \
