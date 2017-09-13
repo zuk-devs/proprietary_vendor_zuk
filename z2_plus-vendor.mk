@@ -669,7 +669,6 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     shutdownlistener \
     TimeService \
-    CNEService \
     com.qualcomm.location \
     qcrilmsgtunnel \
     colorservice \
