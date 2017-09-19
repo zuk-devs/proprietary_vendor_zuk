@@ -208,6 +208,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libchromatix_ov8865_preview.so:system/vendor/lib/libchromatix_ov8865_preview.so \
+    vendor/zuk/z2_plus/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libOmxApeDecSw.so:system/vendor/lib/libOmxApeDecSw.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libmmcamera_isp_scaler_encoder46.so:system/vendor/lib/libmmcamera_isp_scaler_encoder46.so \
@@ -271,6 +272,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libmmcamera_isp_gamma44.so:system/vendor/lib/libmmcamera_isp_gamma44.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+    vendor/zuk/z2_plus/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
@@ -447,6 +449,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libOmxAacDec.so:system/vendor/lib64/libOmxAacDec.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libsdm-color.so:system/vendor/lib64/libsdm-color.so \
+    vendor/zuk/z2_plus/proprietary/vendor/lib64/libmmQSM.so:system/vendor/lib64/libmmQSM.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libOmxApeDecSw.so:system/vendor/lib64/libOmxApeDecSw.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libqc-opt.so:system/vendor/lib64/libqc-opt.so \
@@ -482,6 +485,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:system/vendor/lib64/egl/libGLESv2_adreno.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
+    vendor/zuk/z2_plus/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
