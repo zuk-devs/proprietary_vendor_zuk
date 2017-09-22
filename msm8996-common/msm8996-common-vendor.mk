@@ -20,7 +20,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/zuk/msm8996-common/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/zuk/msm8996-common/proprietary/bin/port-bridge:system/bin/port-bridge \
-    vendor/zuk/msm8996-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/zuk/msm8996-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/zuk/msm8996-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/zuk/msm8996-common/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
@@ -138,7 +137,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/pm-proxy:system/vendor/bin/pm-proxy \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/pm-service:system/vendor/bin/pm-service \
-    vendor/zuk/msm8996-common/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
+    vendor/zuk/msm8996-common/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
@@ -255,6 +254,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/lib_drplugin_server.so:system/vendor/lib/lib_drplugin_server.so \
@@ -285,6 +285,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libcppf.so:system/vendor/lib/libcppf.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
@@ -403,6 +404,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libqct_resampler.so:system/vendor/lib/libqct_resampler.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libqisl.so:system/vendor/lib/libqisl.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
@@ -426,6 +428,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libqti_performance.so:system/vendor/lib/libqti_performance.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libqvop-service.so:system/vendor/lib/libqvop-service.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libscalar.so:system/vendor/lib/libscalar.so \
@@ -440,6 +443,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libslimclient.so:system/vendor/lib/libslimclient.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libtinyxml2_1.so:system/vendor/lib/libtinyxml2_1.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libtm_interface.so:system/vendor/lib/libtm_interface.so \
