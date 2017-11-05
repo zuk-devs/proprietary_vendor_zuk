@@ -120,16 +120,24 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/zuk/msm8996-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/zuk/msm8996-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/zuk/msm8996-common/proprietary/lib/libqti-perfd-client_system.so:system/lib/libqti-perfd-client_system.so \
+    vendor/zuk/msm8996-common/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/zuk/msm8996-common/proprietary/lib/libtfa98xx.so:system/lib/libtfa98xx.so \
     vendor/zuk/msm8996-common/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/zuk/msm8996-common/proprietary/lib/vendor.display.color@1.0.so:system/lib/vendor.display.color@1.0.so \
     vendor/zuk/msm8996-common/proprietary/lib/vendor.display.postproc@1.0.so:system/lib/vendor.display.postproc@1.0.so \
+    vendor/zuk/msm8996-common/proprietary/lib/vendor.qti.hardware.iop@1.0.so:system/lib/vendor.qti.hardware.iop@1.0.so \
+    vendor/zuk/msm8996-common/proprietary/lib/vendor.qti.hardware.perf@1.0.so:system/lib/vendor.qti.hardware.perf@1.0.so \
     vendor/zuk/msm8996-common/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/zuk/msm8996-common/proprietary/lib64/libextmedia_jni.so:system/lib64/libextmedia_jni.so \
     vendor/zuk/msm8996-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
+    vendor/zuk/msm8996-common/proprietary/lib64/libqti-perfd-client_system.so:system/lib64/libqti-perfd-client_system.so \
+    vendor/zuk/msm8996-common/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
     vendor/zuk/msm8996-common/proprietary/lib64/libtfa98xx.so:system/lib64/libtfa98xx.so \
     vendor/zuk/msm8996-common/proprietary/lib64/vendor.display.color@1.0.so:system/lib64/vendor.display.color@1.0.so \
     vendor/zuk/msm8996-common/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so \
+    vendor/zuk/msm8996-common/proprietary/lib64/vendor.qti.hardware.iop@1.0.so:system/lib64/vendor.qti.hardware.iop@1.0.so \
+    vendor/zuk/msm8996-common/proprietary/lib64/vendor.qti.hardware.perf@1.0.so:system/lib64/vendor.qti.hardware.perf@1.0.so \
     vendor/zuk/msm8996-common/proprietary/usr/idc/usf_tsc.idc:system/usr/idc/usf_tsc.idc \
     vendor/zuk/msm8996-common/proprietary/usr/idc/usf_tsc_ext.idc:system/usr/idc/usf_tsc_ext.idc \
     vendor/zuk/msm8996-common/proprietary/usr/idc/usf_tsc_ptr.idc:system/usr/idc/usf_tsc_ptr.idc \
@@ -141,11 +149,12 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/energy-awareness:system/vendor/bin/energy-awareness \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:system/vendor/bin/hw/vendor.display.color@1.0-service \
+    vendor/zuk/msm8996-common/proprietary/vendor/bin/hw/vendor.qti.hardware.iop@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.iop@1.0-service \
+    vendor/zuk/msm8996-common/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/ims_rtp_daemon:system/vendor/bin/ims_rtp_daemon \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/imscmservice:system/vendor/bin/imscmservice \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
-    vendor/zuk/msm8996-common/proprietary/vendor/bin/iop:system/vendor/bin/iop \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/ipacm-diag:system/vendor/bin/ipacm-diag \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
@@ -154,7 +163,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
-    vendor/zuk/msm8996-common/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/pm-proxy:system/vendor/bin/pm-proxy \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/pm-service:system/vendor/bin/pm-service \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/port-bridge:system/vendor/bin/port-bridge \
@@ -194,14 +202,17 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:system/vendor/etc/init/vendor.display.color@1.0-service.rc \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/init/vendor.qti.hardware.iop@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.iop@1.0-service.rc \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/perf-profile1.conf:system/vendor/etc/perf-profile1.conf \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/perf-profile2.conf:system/vendor/etc/perf-profile2.conf \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/perf-profile3.conf:system/vendor/etc/perf-profile3.conf \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/perf-profile4.conf:system/vendor/etc/perf-profile4.conf \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/perf-profile5.conf:system/vendor/etc/perf-profile5.conf \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/perf-profile6.conf:system/vendor/etc/perf-profile6.conf \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/perf/perf-profile0.conf:system/vendor/etc/perf/perf-profile0.conf \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/perf/perf-profile1.conf:system/vendor/etc/perf/perf-profile1.conf \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/perf/perf-profile2.conf:system/vendor/etc/perf/perf-profile2.conf \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/perf/perf-profile3.conf:system/vendor/etc/perf/perf-profile3.conf \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/perf/perf-profile4.conf:system/vendor/etc/perf/perf-profile4.conf \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/perf/perf-profile5.conf:system/vendor/etc/perf/perf-profile5.conf \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/perf/perf-profile6.conf:system/vendor/etc/perf/perf-profile6.conf \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/perf/perfboostsconfig.xml:system/vendor/etc/perf/perfboostsconfig.xml \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/qcril_fancy.db:system/vendor/etc/qcril_fancy.db \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/sensors/hals.conf:system/vendor/etc/sensors/hals.conf \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
@@ -215,6 +226,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/hw/gatekeeper.msm8996.so:system/vendor/lib/hw/gatekeeper.msm8996.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/hw/keystore.msm8996.so:system/vendor/lib/hw/keystore.msm8996.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/hw/sound_trigger.primary.msm8996.so:system/vendor/lib/hw/sound_trigger.primary.msm8996.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/hw/vendor.qti.hardware.iop@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.iop@1.0-impl.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/hw/vulkan.msm8996.so:system/vendor/lib/hw/vulkan.msm8996.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/lib-ims-rcscmjni.so:system/vendor/lib/lib-ims-rcscmjni.so \
@@ -404,6 +416,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libmorpho_image_stab4.so:system/vendor/lib/libmorpho_image_stab4.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libmpbase.so:system/vendor/lib/libmpbase.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libperfgluelayer.so:system/vendor/lib/libperfgluelayer.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libprotobuf-cpp-Hlit.so:system/vendor/lib/libprotobuf-cpp-Hlit.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
@@ -425,9 +438,10 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libqseed3.so:system/vendor/lib/libqseed3.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libqti-at.so:system/vendor/lib/libqti-at.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libqti-gt.so:system/vendor/lib/libqti-gt.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib/libqti-iop.so:system/vendor/lib/libqti-iop.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libqti-iopd-client.so:system/vendor/lib/libqti-iopd-client.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libqti-iopd.so:system/vendor/lib/libqti-iopd.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libqti-util.so:system/vendor/lib/libqti-util.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libqti-wl.so:system/vendor/lib/libqti-wl.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libqti_performance.so:system/vendor/lib/libqti_performance.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
@@ -476,6 +490,8 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/vendor.display.color@1.0_vendor.so:system/vendor/lib/vendor.display.color@1.0_vendor.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/vendor.display.postproc@1.0_vendor.so:system/vendor/lib/vendor.display.postproc@1.0_vendor.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/vendor.qti.hardware.iop@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.iop@1.0_vendor.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/vendor.qti.hardware.perf@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.perf@1.0_vendor.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
@@ -487,6 +503,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/hw/gatekeeper.msm8996.so:system/vendor/lib64/hw/gatekeeper.msm8996.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/hw/keystore.msm8996.so:system/vendor/lib64/hw/keystore.msm8996.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/hw/vendor.qti.hardware.iop@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.iop@1.0-impl.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/hw/vulkan.msm8996.so:system/vendor/lib64/hw/vulkan.msm8996.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/lib-ims-rcscmjni.so:system/vendor/lib64/lib-ims-rcscmjni.so \
@@ -614,6 +631,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libperfgluelayer.so:system/vendor/lib64/libperfgluelayer.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libprotobuf-cpp-Hlit.so:system/vendor/lib64/libprotobuf-cpp-Hlit.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libprotobuf-cpp-fool.so:system/vendor/lib64/libprotobuf-cpp-fool.so \
@@ -635,9 +653,10 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libqseed3.so:system/vendor/lib64/libqseed3.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libqti-at.so:system/vendor/lib64/libqti-at.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libqti-gt.so:system/vendor/lib64/libqti-gt.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libqti-iop.so:system/vendor/lib64/libqti-iop.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libqti-iopd-client.so:system/vendor/lib64/libqti-iopd-client.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libqti-iopd.so:system/vendor/lib64/libqti-iopd.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libqti-util.so:system/vendor/lib64/libqti-util.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libqti-wl.so:system/vendor/lib64/libqti-wl.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libqti_performance.so:system/vendor/lib64/libqti_performance.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
@@ -687,6 +706,8 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/vendor.display.color@1.0_vendor.so:system/vendor/lib64/vendor.display.color@1.0_vendor.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/vendor.display.postproc@1.0_vendor.so:system/vendor/lib64/vendor.display.postproc@1.0_vendor.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/vendor.qti.hardware.iop@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.iop@1.0_vendor.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so \
     vendor/zuk/msm8996-common/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
