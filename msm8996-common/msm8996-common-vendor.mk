@@ -16,7 +16,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
-    vendor/zuk/msm8996-common/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/zuk/msm8996-common/proprietary/bin/cnd:system/bin/cnd \
     vendor/zuk/msm8996-common/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/zuk/msm8996-common/proprietary/bin/dpmd:system/bin/dpmd \
