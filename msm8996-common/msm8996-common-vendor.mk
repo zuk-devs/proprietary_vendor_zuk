@@ -696,4 +696,5 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     ims \
     imssettings \
+    qcnvitems \
     qcrilhook
