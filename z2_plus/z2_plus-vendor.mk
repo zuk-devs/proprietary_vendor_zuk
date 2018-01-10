@@ -27,30 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/zuk/z2_plus/proprietary/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libactuator_dw9767.so:system/vendor/lib/libactuator_dw9767.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib/libchromatix_ov8865_common.so:system/vendor/lib/libchromatix_ov8865_common.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib/libchromatix_ov8865_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_ov8865_cpp_ds_chromatix.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib/libchromatix_ov8865_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov8865_cpp_hfr_120.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib/libchromatix_ov8865_cpp_hfr_60.so:system/vendor/lib/libchromatix_ov8865_cpp_hfr_60.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib/libchromatix_ov8865_cpp_hfr_90.so:system/vendor/lib/libchromatix_ov8865_cpp_hfr_90.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib/libchromatix_ov8865_cpp_liveshot.so:system/vendor/lib/libchromatix_ov8865_cpp_liveshot.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib/libchromatix_ov8865_cpp_preview.so:system/vendor/lib/libchromatix_ov8865_cpp_preview.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib/libchromatix_ov8865_cpp_snapshot.so:system/vendor/lib/libchromatix_ov8865_cpp_snapshot.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib/libchromatix_ov8865_cpp_us_chromatix.so:system/vendor/lib/libchromatix_ov8865_cpp_us_chromatix.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib/libchromatix_ov8865_cpp_video_full.so:system/vendor/lib/libchromatix_ov8865_cpp_video_full.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib/libchromatix_ov8865_default_preview_none.so:system/vendor/lib/libchromatix_ov8865_default_preview_none.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib/libchromatix_ov8865_default_video.so:system/vendor/lib/libchromatix_ov8865_default_video.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib/libchromatix_ov8865_default_video_none.so:system/vendor/lib/libchromatix_ov8865_default_video_none.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib/libchromatix_ov8865_hfr_120.so:system/vendor/lib/libchromatix_ov8865_hfr_120.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib/libchromatix_ov8865_hfr_120_none.so:system/vendor/lib/libchromatix_ov8865_hfr_120_none.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib/libchromatix_ov8865_hfr_60_none.so:system/vendor/lib/libchromatix_ov8865_hfr_60_none.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib/libchromatix_ov8865_hfr_90.so:system/vendor/lib/libchromatix_ov8865_hfr_90.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib/libchromatix_ov8865_hfr_90_none.so:system/vendor/lib/libchromatix_ov8865_hfr_90_none.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib/libchromatix_ov8865_postproc.so:system/vendor/lib/libchromatix_ov8865_postproc.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib/libchromatix_ov8865_preview.so:system/vendor/lib/libchromatix_ov8865_preview.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib/libchromatix_ov8865_snapshot.so:system/vendor/lib/libchromatix_ov8865_snapshot.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib/libchromatix_ov8865_video_full.so:system/vendor/lib/libchromatix_ov8865_video_full.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib/libchromatix_ov8865_zsl_preview.so:system/vendor/lib/libchromatix_ov8865_zsl_preview.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib/libchromatix_ov8865_zsl_video.so:system/vendor/lib/libchromatix_ov8865_zsl_video.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libchromatix_s5k2m8sx_common.so:system/vendor/lib/libchromatix_s5k2m8sx_common.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libchromatix_s5k2m8sx_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k2m8sx_cpp_hfr_120.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libchromatix_s5k2m8sx_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k2m8sx_cpp_hfr_60.so \
@@ -76,5 +52,4 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libchromatix_s5k2m8sx_zsl_video_dw9767.so:system/vendor/lib/libchromatix_s5k2m8sx_zsl_video_dw9767.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libjni_dualcamera.so:system/vendor/lib/libjni_dualcamera.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libmmcamera_onsemi_cat24c64_eeprom.so:system/vendor/lib/libmmcamera_onsemi_cat24c64_eeprom.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib/libmmcamera_ov8865.so:system/vendor/lib/libmmcamera_ov8865.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libmmcamera_s5k2m8sx.so:system/vendor/lib/libmmcamera_s5k2m8sx.so

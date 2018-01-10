@@ -281,8 +281,32 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libc2d30-a5xx.so:system/vendor/lib/libc2d30-a5xx.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libc2d30_bltlib.so:system/vendor/lib/libc2d30_bltlib.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_common.so:system/vendor/lib/libchromatix_ov8865_common.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_ov8865_cpp_ds_chromatix.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov8865_cpp_hfr_120.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_cpp_hfr_60.so:system/vendor/lib/libchromatix_ov8865_cpp_hfr_60.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_cpp_hfr_90.so:system/vendor/lib/libchromatix_ov8865_cpp_hfr_90.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_cpp_liveshot.so:system/vendor/lib/libchromatix_ov8865_cpp_liveshot.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_cpp_preview.so:system/vendor/lib/libchromatix_ov8865_cpp_preview.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_cpp_snapshot.so:system/vendor/lib/libchromatix_ov8865_cpp_snapshot.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_cpp_us_chromatix.so:system/vendor/lib/libchromatix_ov8865_cpp_us_chromatix.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_cpp_video.so:system/vendor/lib/libchromatix_ov8865_cpp_video.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_cpp_video_full.so:system/vendor/lib/libchromatix_ov8865_cpp_video_full.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_default_preview_none.so:system/vendor/lib/libchromatix_ov8865_default_preview_none.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_default_video.so:system/vendor/lib/libchromatix_ov8865_default_video.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_default_video_none.so:system/vendor/lib/libchromatix_ov8865_default_video_none.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_hfr_120.so:system/vendor/lib/libchromatix_ov8865_hfr_120.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_hfr_120_none.so:system/vendor/lib/libchromatix_ov8865_hfr_120_none.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_hfr_60.so:system/vendor/lib/libchromatix_ov8865_hfr_60.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_hfr_60_none.so:system/vendor/lib/libchromatix_ov8865_hfr_60_none.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_hfr_90.so:system/vendor/lib/libchromatix_ov8865_hfr_90.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_hfr_90_none.so:system/vendor/lib/libchromatix_ov8865_hfr_90_none.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_postproc.so:system/vendor/lib/libchromatix_ov8865_postproc.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_preview.so:system/vendor/lib/libchromatix_ov8865_preview.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_snapshot.so:system/vendor/lib/libchromatix_ov8865_snapshot.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_video_full.so:system/vendor/lib/libchromatix_ov8865_video_full.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_zsl_preview.so:system/vendor/lib/libchromatix_ov8865_zsl_preview.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libchromatix_ov8865_zsl_video.so:system/vendor/lib/libchromatix_ov8865_zsl_video.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
@@ -381,6 +405,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libmmcamera_isp_snr47.so:system/vendor/lib/libmmcamera_isp_snr47.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libmmcamera_isp_sub_module.so:system/vendor/lib/libmmcamera_isp_sub_module.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libmmcamera_ov8856.so:system/vendor/lib/libmmcamera_ov8856.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libmmcamera_ov8865.so:system/vendor/lib/libmmcamera_ov8865.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libmmcamera_paaf_lib.so:system/vendor/lib/libmmcamera_paaf_lib.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
