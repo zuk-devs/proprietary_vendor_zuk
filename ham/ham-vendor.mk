@@ -234,6 +234,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/ham/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
 
 PRODUCT_PACKAGES += \
+    qcrilmsgtunnel \
     TimeService \
-    shutdownlistener \
-    qcrilmsgtunnel
+    shutdownlistener
