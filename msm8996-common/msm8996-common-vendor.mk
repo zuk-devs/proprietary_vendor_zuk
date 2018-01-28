@@ -18,7 +18,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/zuk/msm8996-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/zuk/msm8996-common/proprietary/bin/port-bridge:system/bin/port-bridge \
-    vendor/zuk/msm8996-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/zuk/msm8996-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/zuk/msm8996-common/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/zuk/msm8996-common/proprietary/etc/camera/ov8865_chromatix.xml:system/etc/camera/ov8865_chromatix.xml \
@@ -80,7 +79,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/zuk/msm8996-common/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/zuk/msm8996-common/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
-    vendor/zuk/msm8996-common/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/zuk/msm8996-common/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/zuk/msm8996-common/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/zuk/msm8996-common/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:system/framework/com.quicinc.cne.api-V1.0-java.jar \
@@ -117,6 +115,8 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/zuk/msm8996-common/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
     vendor/zuk/msm8996-common/proprietary/lib64/libxt_native.so:system/lib64/libxt_native.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/bin/init.qcom.sensors.sh:system/vendor/bin/init.qcom.sensors.sh \
+    vendor/zuk/msm8996-common/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/energy-awareness:system/vendor/bin/energy-awareness \
@@ -206,6 +206,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/perf/perf-profile6.conf:system/vendor/etc/perf/perf-profile6.conf \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/perf/perfboostsconfig.xml:system/vendor/etc/perf/perfboostsconfig.xml \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/sensors/hals.conf:system/vendor/etc/sensors/hals.conf \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:system/vendor/etc/sensors/sensor_def_qcomdev.conf \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/cacert_location.pem:system/vendor/etc/cacert_location.pem \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/xtra_root_cert.pem:system/vendor/etc/xtra_root_cert.pem \
     vendor/zuk/msm8996-common/proprietary/vendor/framework/qti-vzw-ims-internal.jar:system/vendor/framework/qti-vzw-ims-internal.jar \
