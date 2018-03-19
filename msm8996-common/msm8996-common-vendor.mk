@@ -562,6 +562,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libgeofence.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgeofence.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgsl.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdr_tm.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libhexagon_nn_controller.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhexagon_nn_controller.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libidl.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimscamera_jni.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimsmedia_jni.so \
