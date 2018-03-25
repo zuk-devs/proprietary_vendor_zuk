@@ -59,7 +59,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/lib/librcc.so:system/lib/librcc.so \
     vendor/zuk/msm8996-common/proprietary/lib/libsd_sdk_display.so:system/lib/libsd_sdk_display.so \
     vendor/zuk/msm8996-common/proprietary/lib/libsdm-disp-apis.so:system/lib/libsdm-disp-apis.so \
-    vendor/zuk/msm8996-common/proprietary/lib/libtrueportrait.so:system/lib/libtrueportrait.so \
     vendor/zuk/msm8996-common/proprietary/lib/vendor.display.color@1.0.so:system/lib/vendor.display.color@1.0.so \
     vendor/zuk/msm8996-common/proprietary/lib/vendor.display.postproc@1.0.so:system/lib/vendor.display.postproc@1.0.so \
     vendor/zuk/msm8996-common/proprietary/lib/vendor.qti.hardware.iop@1.0.so:system/lib/vendor.qti.hardware.iop@1.0.so \
