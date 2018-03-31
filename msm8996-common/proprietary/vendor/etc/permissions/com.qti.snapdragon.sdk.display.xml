@@ -10,9 +10,6 @@
  */
 -->
 <permissions>
-
-    <library
-        name="com.qti.snapdragon.sdk.display"
-        file="/system/framework/com.qti.snapdragon.sdk.display.jar" />
-
+  <library name="com.qti.snapdragon.sdk.display"
+    file="/vendor/framework/com.qti.snapdragon.sdk.display.jar" />
 </permissions>

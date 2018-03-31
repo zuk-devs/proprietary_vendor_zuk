@@ -4,7 +4,7 @@
  *  All Rights Reserved.
  *  Confidential and Proprietary - Qualcomm Technologies, Inc.
 -->
-
 <permissions>
-  <library name="izat.xt.srv" file="/system/framework/izat.xt.srv.jar"/>
+  <library name="izat.xt.srv"
+    file="/vendor/framework/izat.xt.srv.jar"/>
 </permissions>
