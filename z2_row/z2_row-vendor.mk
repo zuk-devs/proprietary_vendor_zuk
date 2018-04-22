@@ -37,7 +37,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_row/proprietary/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
     vendor/zuk/z2_row/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/zuk/z2_row/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
-    vendor/zuk/z2_row/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/zuk/z2_row/proprietary/vendor/lib/libactuator_ak7371.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7371.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libchromatix_s5k2m8sx_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2m8sx_common.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libchromatix_s5k2m8sx_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2m8sx_cpp_hfr_120.so \
