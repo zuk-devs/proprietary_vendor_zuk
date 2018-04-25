@@ -468,6 +468,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libsmwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmwrapper.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssd.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libthermalclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalclient.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtime_genoff.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml2_1.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libtm_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtm_interface.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libtsvideoprocess.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtsvideoprocess.so \
