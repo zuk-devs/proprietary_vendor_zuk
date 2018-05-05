@@ -141,27 +141,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/xtwifi-client:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-client \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/xtwifi-inet-agent:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-inet-agent \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/RIDL/qdss.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/RIDL/qdss.cfg \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/Fluid/Fluid_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Fluid/Fluid_General_cal.acdb \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/Fluid/Fluid_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Fluid/Fluid_Global_cal.acdb \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/Fluid/Fluid_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Fluid/Fluid_Handset_cal.acdb \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/Fluid/Fluid_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Fluid/Fluid_Hdmi_cal.acdb \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/Fluid/Fluid_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Fluid/Fluid_Headset_cal.acdb \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/Fluid/Fluid_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Fluid/Fluid_Speaker_cal.acdb \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/Liquid/Liquid_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Liquid/Liquid_General_cal.acdb \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/Liquid/Liquid_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Liquid/Liquid_Global_cal.acdb \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/Liquid/Liquid_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Liquid/Liquid_Handset_cal.acdb \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/Liquid/Liquid_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Liquid/Liquid_Headset_cal.acdb \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/QRD/QRD_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_General_cal.acdb \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Global_cal.acdb \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Handset_cal.acdb \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile2.xml \
