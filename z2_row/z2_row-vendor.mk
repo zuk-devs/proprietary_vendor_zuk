@@ -58,11 +58,11 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_row/proprietary/etc/camera/msm8996_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/msm8996_camera.xml \
     vendor/zuk/z2_row/proprietary/vendor/lib/libtfa98xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtfa98xx.so \
     vendor/zuk/z2_row/proprietary/vendor/lib64/libtfa98xx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtfa98xx.so \
-    vendor/zuk/z2_row/proprietary/etc/tfa98xx/shenqi_speech.eq:system/etc/tfa98xx/shenqi_speech.eq \
-    vendor/zuk/z2_row/proprietary/etc/tfa98xx/shenqi_speech.preset:system/etc/tfa98xx/shenqi_speech.preset \
-    vendor/zuk/z2_row/proprietary/etc/tfa98xx/shenqi_music.eq:system/etc/tfa98xx/shenqi_music.eq \
-    vendor/zuk/z2_row/proprietary/etc/tfa98xx/coldboot.patch:system/etc/tfa98xx/coldboot.patch \
-    vendor/zuk/z2_row/proprietary/etc/tfa98xx/shenqi.speaker:system/etc/tfa98xx/shenqi.speaker \
-    vendor/zuk/z2_row/proprietary/etc/tfa98xx/TFA9890_N1B12_N1C3_v2.config:system/etc/tfa98xx/TFA9890_N1B12_N1C3_v2.config \
-    vendor/zuk/z2_row/proprietary/etc/tfa98xx/TFA9890_N1C3_2_1_1.patch:system/etc/tfa98xx/TFA9890_N1C3_2_1_1.patch \
-    vendor/zuk/z2_row/proprietary/etc/tfa98xx/shenqi_music.preset:system/etc/tfa98xx/shenqi_music.preset
+    vendor/zuk/z2_row/proprietary/vendor/ampl/shenqi_speech.eq:$(TARGET_COPY_OUT_VENDOR)/ampl/shenqi_speech.eq \
+    vendor/zuk/z2_row/proprietary/vendor/ampl/shenqi_speech.preset:$(TARGET_COPY_OUT_VENDOR)/ampl/shenqi_speech.preset \
+    vendor/zuk/z2_row/proprietary/vendor/ampl/shenqi_music.eq:$(TARGET_COPY_OUT_VENDOR)/ampl/shenqi_music.eq \
+    vendor/zuk/z2_row/proprietary/vendor/ampl/coldboot.patch:$(TARGET_COPY_OUT_VENDOR)/ampl/coldboot.patch \
+    vendor/zuk/z2_row/proprietary/vendor/ampl/shenqi.speaker:$(TARGET_COPY_OUT_VENDOR)/ampl/shenqi.speaker \
+    vendor/zuk/z2_row/proprietary/vendor/ampl/TFA9890_N1B12_N1C3_v2.config:$(TARGET_COPY_OUT_VENDOR)/ampl/TFA9890_N1B12_N1C3_v2.config \
+    vendor/zuk/z2_row/proprietary/vendor/ampl/TFA9890_N1C3_2_1_1.patch:$(TARGET_COPY_OUT_VENDOR)/ampl/TFA9890_N1C3_2_1_1.patch \
+    vendor/zuk/z2_row/proprietary/vendor/ampl/shenqi_music.preset:$(TARGET_COPY_OUT_VENDOR)/ampl/shenqi_music.preset
