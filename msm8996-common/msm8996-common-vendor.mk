@@ -173,8 +173,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/firmware/bdwlan30.b81:$(TARGET_COPY_OUT_VENDOR)/firmware/bdwlan30.b81 \
     vendor/zuk/msm8996-common/proprietary/vendor/firmware/bdwlan30.b82:$(TARGET_COPY_OUT_VENDOR)/firmware/bdwlan30.b82 \
     vendor/zuk/msm8996-common/proprietary/vendor/firmware/bdwlan30.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bdwlan30.bin \
-    vendor/zuk/msm8996-common/proprietary/vendor/firmware/btfw32.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/btfw32.tlv \
-    vendor/zuk/msm8996-common/proprietary/vendor/firmware/btnv32.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/btnv32.bin \
     vendor/zuk/msm8996-common/proprietary/vendor/firmware/otp30.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/otp30.bin \
     vendor/zuk/msm8996-common/proprietary/vendor/firmware/qwlan30.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/qwlan30.bin \
     vendor/zuk/msm8996-common/proprietary/vendor/firmware/utf30.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/utf30.bin \
