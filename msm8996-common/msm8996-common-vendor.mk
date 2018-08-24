@@ -634,6 +634,7 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     QtiTelephonyService \
     uceShimService \
+    CNEService \
     qcrilmsgtunnel \
     PowerOffAlarm \
     TimeService \
