@@ -667,6 +667,7 @@ PRODUCT_PACKAGES += \
     ims \
     uceShimService \
     CNEService \
+    dpmserviceapp \
     qcrilmsgtunnel \
     PowerOffAlarm \
     TimeService \
