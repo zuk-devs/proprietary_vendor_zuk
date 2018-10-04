@@ -784,6 +784,7 @@ PRODUCT_PACKAGES += \
     CNEService \
     dpmserviceapp \
     qcrilmsgtunnel \
+    datastatusnotification \
     PowerOffAlarm \
     TimeService \
     ReferenceFeature
