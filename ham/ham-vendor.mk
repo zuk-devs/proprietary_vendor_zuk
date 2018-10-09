@@ -17,6 +17,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/zuk/ham/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
+    vendor/zuk/ham/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
     vendor/zuk/ham/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/zuk/ham/proprietary/vendor/bin/hvdcp:system/vendor/bin/hvdcp \
     vendor/zuk/ham/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
