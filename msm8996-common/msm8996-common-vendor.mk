@@ -285,8 +285,10 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libdualcameraddm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdualcameraddm.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libfastcvadsp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvadsp_stub.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libfastcvopt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvopt.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libfinder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfinder.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libflash_pmic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_pmic.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libfui.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfui.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libfutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfutils.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgsl.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdr_tm.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libidl.so \
