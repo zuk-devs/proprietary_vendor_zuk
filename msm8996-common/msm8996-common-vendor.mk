@@ -682,5 +682,4 @@ PRODUCT_PACKAGES += \
     ims \
     qcrilmsgtunnel \
     PowerOffAlarm \
-    TimeService \
-    chargeonlymode
+    TimeService
