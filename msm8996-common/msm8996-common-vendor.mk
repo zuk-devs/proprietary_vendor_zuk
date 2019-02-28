@@ -678,4 +678,5 @@ PRODUCT_PACKAGES += \
     ims \
     qcrilmsgtunnel \
     PowerOffAlarm \
-    TimeService
+    TimeService \
+    wcg_mac_tool

@@ -148,4 +148,13 @@ LOCAL_MODULE_SUFFIX := .apk
 LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := wcg_mac_tool
+LOCAL_MODULE_OWNER := zuk
+LOCAL_SRC_FILES := proprietary/vendor/bin/wcg_mac_tool
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
 endif
