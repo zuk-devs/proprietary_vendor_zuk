@@ -48,14 +48,14 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/ham/proprietary/vendor/etc/permissions/qcnvitems.xml:system/vendor/etc/permissions/qcnvitems.xml \
     vendor/zuk/ham/proprietary/vendor/etc/permissions/qcrilhook.xml:system/vendor/etc/permissions/qcrilhook.xml \
     vendor/zuk/ham/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
-    vendor/zuk/ham/proprietary/etc/tfa98xx/TFA9890_N1B12_N1C3_v2.config:system/etc/tfa98xx/TFA9890_N1B12_N1C3_v2.config \
-    vendor/zuk/ham/proprietary/etc/tfa98xx/TFA9890_N1C3_2_1_1.patch:system/etc/tfa98xx/TFA9890_N1C3_2_1_1.patch \
-    vendor/zuk/ham/proprietary/etc/tfa98xx/coldboot.patch:system/etc/tfa98xx/coldboot.patch \
-    vendor/zuk/ham/proprietary/etc/tfa98xx/shenqi.speaker:system/etc/tfa98xx/shenqi.speaker \
-    vendor/zuk/ham/proprietary/etc/tfa98xx/shenqi_music.eq:system/etc/tfa98xx/shenqi_music.eq \
-    vendor/zuk/ham/proprietary/etc/tfa98xx/shenqi_music.preset:system/etc/tfa98xx/shenqi_music.preset \
-    vendor/zuk/ham/proprietary/etc/tfa98xx/shenqi_speech.eq:system/etc/tfa98xx/shenqi_speech.eq \
-    vendor/zuk/ham/proprietary/etc/tfa98xx/shenqi_speech.preset:system/etc/tfa98xx/shenqi_speech.preset \
+    vendor/zuk/ham/proprietary/vendor/ampl/TFA9890_N1B12_N1C3_v2.config:system/vendor/ampl/TFA9890_N1B12_N1C3_v2.config \
+    vendor/zuk/ham/proprietary/vendor/ampl/TFA9890_N1C3_2_1_1.patch:system/vendor/ampl/TFA9890_N1C3_2_1_1.patch \
+    vendor/zuk/ham/proprietary/vendor/ampl/coldboot.patch:system/vendor/ampl/coldboot.patch \
+    vendor/zuk/ham/proprietary/vendor/ampl/shenqi.speaker:system/vendor/ampl/shenqi.speaker \
+    vendor/zuk/ham/proprietary/vendor/ampl/shenqi_music.eq:system/vendor/ampl/shenqi_music.eq \
+    vendor/zuk/ham/proprietary/vendor/ampl/shenqi_music.preset:system/vendor/ampl/shenqi_music.preset \
+    vendor/zuk/ham/proprietary/vendor/ampl/shenqi_speech.eq:system/vendor/ampl/shenqi_speech.eq \
+    vendor/zuk/ham/proprietary/vendor/ampl/shenqi_speech.eq:system/vendor/ampl/shenqi_speech.eq \
     vendor/zuk/ham/proprietary/vendor/framework/qcnvitems.jar:system/vendor/framework/qcnvitems.jar \
     vendor/zuk/ham/proprietary/vendor/framework/qcrilhook.jar:system/vendor/framework/qcrilhook.jar \
     vendor/zuk/ham/proprietary/vendor/lib/hw/fingerprint.msm8974.so:system/vendor/lib/hw/fingerprint.msm8974.so \
