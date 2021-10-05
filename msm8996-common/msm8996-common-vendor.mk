@@ -65,8 +65,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libclearsight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libclearsight.so \
     vendor/zuk/msm8996-common/proprietary/lib64/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdiag_system.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libfiltergenerator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfiltergenerator.so \
-    vendor/zuk/msm8996-common/proprietary/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimscamera_jni.so \
-    vendor/zuk/msm8996-common/proprietary/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsmedia_jni.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libjni_clearsight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_clearsight.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libjni_filtergenerator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_filtergenerator.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libjni_makeupV2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_makeupV2.so \
@@ -108,6 +106,8 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/product/lib64/libdpmfdmgr.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libdpmfdmgr.so \
     vendor/zuk/msm8996-common/proprietary/product/lib64/libdpmframework.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libdpmframework.so \
     vendor/zuk/msm8996-common/proprietary/product/lib64/libdpmtcm.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libdpmtcm.so \
+    vendor/zuk/msm8996-common/proprietary/product/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libimscamera_jni.so \
+    vendor/zuk/msm8996-common/proprietary/product/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libimsmedia_jni.so \
     vendor/zuk/msm8996-common/proprietary/product/lib64/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.color@1.0.so \
     vendor/zuk/msm8996-common/proprietary/product/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.postproc@1.0.so \
     vendor/zuk/msm8996-common/proprietary/product/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
@@ -661,11 +661,11 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     uceShimService \
     WfdService \
-    ims \
     qcrilmsgtunnel \
     CneApp \
     IWlanService \
     TimeService \
     PowerOffAlarm \
     dpmserviceapp \
+    ims \
     WfdCommon
