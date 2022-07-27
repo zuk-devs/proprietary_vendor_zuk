@@ -203,3 +203,51 @@ dex_import {
 	jars: ["proprietary/framework/WfdCommon.jar"],
 }
 
+dex_import {
+	name: "audiosphere",
+	owner: "zuk",
+	jars: ["proprietary/framework/audiosphere.jar"],
+}
+
+dex_import {
+	name: "vendor.qti.hardware.alarm-V1.0-java",
+	owner: "zuk",
+	jars: ["proprietary/product/framework/vendor.qti.hardware.alarm-V1.0-java.jar"],
+	product_specific: true,
+}
+
+dex_import {
+	name: "QtiTelephonyServicelibrary",
+	owner: "zuk",
+	jars: ["proprietary/system_ext/framework/QtiTelephonyServicelibrary.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "qcrilhook",
+	owner: "zuk",
+	jars: ["proprietary/system_ext/framework/qcrilhook.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "qti-telephony-common",
+	owner: "zuk",
+	jars: ["proprietary/system_ext/framework/qti-telephony-common.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.qti.dpmframework",
+	owner: "zuk",
+	jars: ["proprietary/system_ext/framework/com.qti.dpmframework.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "dpmapi",
+	owner: "zuk",
+	jars: ["proprietary/system_ext/framework/dpmapi.jar"],
+	system_ext_specific: true,
+}
+
